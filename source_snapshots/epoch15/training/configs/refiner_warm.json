@@ -1,0 +1,14 @@
+{
+  "prior": "checkpoints/endpoint_p37_100ep_best.pth",
+  "candidates": 4,
+  "flow_steps": 100,
+  "latent_scale": 1.0,
+  "noise_scale": 1.0,
+  "train_maps": 128,
+  "tasks_per_map": 2,
+  "partition_seed": 20260930,
+  "warm_updates": 1000,
+  "rl_updates": 0,
+  "batch_size": 32,
+  "seed": 20261004
+}

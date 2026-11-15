@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "created_local": "2026-11-15T23:27:33.736281+08:00",
+  "binding": {
+    "checkpoint_sha256": "37b8d6d03bba27473f0230664ff3a36fe9ec36761bc86350ea6bddd3ad7e229a",
+    "diagnostics_source_sha256": "562be1d73de7dba5164d015c7db376ccd2bbe8f0110773c060a8f6edcbbabfc2",
+    "source_report_sha256": "c0c49929aaefcdc0659d0ff10d715fa2ad592589f5d6c2bb4f5422089605a588",
+    "baseline_report_sha256": "8dd6ae4cdb7172112db7b752b02ad50c3d7d2b672f391a0892c5d4143149fdd6",
+    "seed": 20461115,
+    "decoder": "adaptive_fallback/smooth7/512",
+    "K": 4,
+    "steps": 100
+  },
+  "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/A_cfm/checkpoints/best_p37.pth",
+  "script_sha256": "2d3a52fa0830fd24552dfdb0a7904523ac35c649c4cfc9a489f56d2f32accb9c",
+  "new_model_predictions": true,
+  "holdout_used": false,
+  "teacher_fields_used_for_decoding": false,
+  "reused_development_set": true,
+  "expected_tasks": 286,
+  "mechanism_metrics": "dense_arc_drawdown_support_v1",
+  "source_sha256": {
+    "training/source/map_flow_matching_p1/route_field_diagnostics.py": "562be1d73de7dba5164d015c7db376ccd2bbe8f0110773c060a8f6edcbbabfc2",
+    "training/source/map_flow_matching_p1/p37_model.py": "29d4862cc75c3ed90d2571c7391660d160005def0ef739c1a0aeebe7ff880c66",
+    "training/source/map_flow_matching_p1/safe_field_decoder.py": "ed13277b42bc15259aa1d7d5aa87adf7622183a8340e5803018e2df9374654bc",
+    "training/source/map_flow_matching_p1/adaptive_field_decoder.py": "5ef07153c8469c4b6bf010630fedf703541ad380e42ba4b7350dc44521a564c0"
+  },
+  "completed_tasks": 286,
+  "network_calls_this_invocation": 28600,
+  "network_calls_total_bound_to_fields": 28600,
+  "finished_local": "2026-11-16T00:02:47.486271+08:00"
+}

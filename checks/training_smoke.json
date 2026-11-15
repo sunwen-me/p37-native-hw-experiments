@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "finished_local": "2026-11-15T16:36:18.061098+08:00",
+  "source_checkpoint_sha256": "3a542a4e6941dabb05c5cdce75434afb4daf7e74eb0b0e79d38c33054dd33a81",
+  "source_checkpoint_unchanged": true,
+  "smoke_weights_discarded": true,
+  "formal_training": false,
+  "train_tasks": 100440,
+  "validation_tasks": 11160,
+  "batches": [
+    {
+      "shape": "64x64",
+      "tasks": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "batch_size": 32,
+      "teacher_counts": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "loss": 0.036232322454452515,
+      "original_objective_before_step": 0.03603489696979523,
+      "gradient_norm_before_clip": 0.7327852249145508,
+      "peak_allocated_gib": 1.2534561157226562,
+      "peak_reserved_gib": 1.416015625
+    },
+    {
+      "shape": "127x193",
+      "tasks": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "batch_size": 8,
+      "teacher_counts": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "loss": 0.00422847643494606,
+      "original_objective_before_step": 0.003940222784876823,
+      "gradient_norm_before_clip": 0.15783843398094177,
+      "peak_allocated_gib": 2.1241302490234375,
+      "peak_reserved_gib": 2.365234375
+    },
+    {
+      "shape": "512x768",
+      "tasks": [
+        120
+      ],
+      "batch_size": 1,
+      "teacher_counts": [
+        1.0
+      ],
+      "loss": 0.0018000882118940353,
+      "original_objective_before_step": 0.0015955157577991486,
+      "gradient_norm_before_clip": 0.38803815841674805,
+      "peak_allocated_gib": 3.395972728729248,
+      "peak_reserved_gib": 3.935546875
+    },
+    {
+      "shape": "768x512",
+      "tasks": [
+        288
+      ],
+      "batch_size": 1,
+      "teacher_counts": [
+        1.0
+      ],
+      "loss": 0.005491458810865879,
+      "original_objective_before_step": 0.0030321336816996336,
+      "gradient_norm_before_clip": 0.5741273164749146,
+      "peak_allocated_gib": 3.394134998321533,
+      "peak_reserved_gib": 3.935546875
+    }
+  ]
+}

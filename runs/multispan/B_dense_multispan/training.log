@@ -1,0 +1,847 @@
+Loaded dataset: 111600 samples
+Map shapes: ((64, 64), (64, 96), (96, 64), (96, 160), (127, 193), (128, 192), (160, 96), (192, 128), (193, 127), (256, 384), (384, 256), (512, 768), (768, 512))
+Horizon: 128
+Materialized unique maps: 128/9300
+Materialized unique maps: 256/9300
+Materialized unique maps: 384/9300
+Materialized unique maps: 512/9300
+Materialized unique maps: 640/9300
+Materialized unique maps: 768/9300
+Materialized unique maps: 896/9300
+Materialized unique maps: 1024/9300
+Materialized unique maps: 1152/9300
+Materialized unique maps: 1280/9300
+Materialized unique maps: 1408/9300
+Materialized unique maps: 1536/9300
+Materialized unique maps: 1664/9300
+Materialized unique maps: 1792/9300
+Materialized unique maps: 1920/9300
+Materialized unique maps: 2048/9300
+Materialized unique maps: 2176/9300
+Materialized unique maps: 2304/9300
+Materialized unique maps: 2432/9300
+Materialized unique maps: 2560/9300
+Materialized unique maps: 2688/9300
+Materialized unique maps: 2816/9300
+Materialized unique maps: 2944/9300
+Materialized unique maps: 3072/9300
+Materialized unique maps: 3200/9300
+Materialized unique maps: 3328/9300
+Materialized unique maps: 3456/9300
+Materialized unique maps: 3584/9300
+Materialized unique maps: 3712/9300
+Materialized unique maps: 3840/9300
+Materialized unique maps: 3968/9300
+Materialized unique maps: 4096/9300
+Materialized unique maps: 4224/9300
+Materialized unique maps: 4352/9300
+Materialized unique maps: 4480/9300
+Materialized unique maps: 4608/9300
+Materialized unique maps: 4736/9300
+Materialized unique maps: 4864/9300
+Materialized unique maps: 4992/9300
+Materialized unique maps: 5120/9300
+Materialized unique maps: 5248/9300
+Materialized unique maps: 5376/9300
+Materialized unique maps: 5504/9300
+Materialized unique maps: 5632/9300
+Materialized unique maps: 5760/9300
+Materialized unique maps: 5888/9300
+Materialized unique maps: 6016/9300
+Materialized unique maps: 6144/9300
+Materialized unique maps: 6272/9300
+Materialized unique maps: 6400/9300
+Materialized unique maps: 6528/9300
+Materialized unique maps: 6656/9300
+Materialized unique maps: 6784/9300
+Materialized unique maps: 6912/9300
+Materialized unique maps: 7040/9300
+Materialized unique maps: 7168/9300
+Materialized unique maps: 7296/9300
+Materialized unique maps: 7424/9300
+Materialized unique maps: 7552/9300
+Materialized unique maps: 7680/9300
+Materialized unique maps: 7808/9300
+Materialized unique maps: 7936/9300
+Materialized unique maps: 8064/9300
+Materialized unique maps: 8192/9300
+Materialized unique maps: 8320/9300
+Materialized unique maps: 8448/9300
+Materialized unique maps: 8576/9300
+Materialized unique maps: 8704/9300
+Materialized unique maps: 8832/9300
+Materialized unique maps: 8960/9300
+Materialized unique maps: 9088/9300
+Materialized unique maps: 9216/9300
+Materialized unique maps: 9300/9300
+{"stage": "epoch_start", "epoch": 1, "train_batches": 28853, "train_tasks": 100440, "validation_tasks": 11160, "resume_completed_batches": 0, "lr": 5e-05, "objective": "continuous segments + support_balanced CFM + dense multispan relative progress slope", "route_increment_weight": 0.0, "route_multispan_weight": 0.01}
+{"stage": "train_batch", "batch": 50, "batches": 50, "samples": 173, "mean_loss": 0.01312534988728605}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 50, "batches": 28853, "samples": 173, "mean_loss": 0.01312534988728605, "optimizer_steps": 50, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 151, "mean_loss": 0.023593922191151473}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 330, "mean_loss": 0.01928550384896384}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 483, "mean_loss": 0.016181469293345945}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 671, "mean_loss": 0.013350323260201061}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 875, "mean_loss": 0.011873113996282752}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1088, "mean_loss": 0.012499965825554682}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1273, "mean_loss": 0.012485731146825099}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1476, "mean_loss": 0.01396834862149992}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1619, "mean_loss": 0.01352150623067935}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1741, "mean_loss": 0.01418452873797408}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1956, "mean_loss": 0.015480714913632374}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2203, "mean_loss": 0.014873611718996229}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2399, "mean_loss": 0.01563107639050562}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2662, "mean_loss": 0.01570230549658634}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2849, "mean_loss": 0.015295376383989432}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2997, "mean_loss": 0.014978268514485197}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3168, "mean_loss": 0.014829020836608687}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3319, "mean_loss": 0.014823366221837822}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3453, "mean_loss": 0.014519122719910085}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3591, "mean_loss": 0.01423007683755596}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 1050, "batches": 28853, "samples": 3764, "mean_loss": 0.014179301661573841, "optimizer_steps": 1050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 155, "mean_loss": 0.00984809233228706}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 341, "mean_loss": 0.00787325689580723}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 512, "mean_loss": 0.008116545064353886}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.007371537544274819}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 800, "mean_loss": 0.010859906353944097}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 971, "mean_loss": 0.010718469593415457}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1121, "mean_loss": 0.010212830225216353}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1226, "mean_loss": 0.01113442467153566}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1393, "mean_loss": 0.012171094716108376}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1586, "mean_loss": 0.012186391921183986}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1749, "mean_loss": 0.011696946985123432}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.011685836967165585}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2149, "mean_loss": 0.012279052729653381}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2335, "mean_loss": 0.011992123064248995}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2543, "mean_loss": 0.011693069141908763}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2679, "mean_loss": 0.011400428979274145}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2835, "mean_loss": 0.011251376971858677}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2939, "mean_loss": 0.011027734628274869}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3111, "mean_loss": 0.01079693815550563}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3281, "mean_loss": 0.011780619441278402}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 2050, "batches": 28853, "samples": 7045, "mean_loss": 0.01306218649268962, "optimizer_steps": 2050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 150, "mean_loss": 0.008268805685608338}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 289, "mean_loss": 0.011675780218104255}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 444, "mean_loss": 0.010564510378596449}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.010587091595246323}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 770, "mean_loss": 0.010188362298551462}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 876, "mean_loss": 0.00998755374870988}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1087, "mean_loss": 0.011790092713480152}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1207, "mean_loss": 0.011753973353419966}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1368, "mean_loss": 0.012916884344797553}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1496, "mean_loss": 0.012899857815706798}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1684, "mean_loss": 0.012361021202932513}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1846, "mean_loss": 0.012069143862175963}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2029, "mean_loss": 0.012252113860273323}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2214, "mean_loss": 0.011779212590388813}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2448, "mean_loss": 0.01164705871036668}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2586, "mean_loss": 0.011464796773238506}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2806, "mean_loss": 0.01120599466568096}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2947, "mean_loss": 0.01105975542993885}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3170, "mean_loss": 0.011073747095714355}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3324, "mean_loss": 0.011760378127364149}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 3050, "batches": 28853, "samples": 10369, "mean_loss": 0.012644864570966998, "optimizer_steps": 3050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 146, "mean_loss": 0.01374449660126056}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 364, "mean_loss": 0.020139502636144183}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 590, "mean_loss": 0.019337313419989295}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 767, "mean_loss": 0.018395187405473523}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 1056, "mean_loss": 0.016521712323689524}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1274, "mean_loss": 0.01570755492241942}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1467, "mean_loss": 0.014920844766930324}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1658, "mean_loss": 0.01505157809059413}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1842, "mean_loss": 0.015667181727428387}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 2040, "mean_loss": 0.016796575597197494}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2224, "mean_loss": 0.01663846233619918}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2350, "mean_loss": 0.01615037711109332}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2550, "mean_loss": 0.016126950804997858}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2670, "mean_loss": 0.015762432076800822}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2847, "mean_loss": 0.01533829114357079}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3002, "mean_loss": 0.015332897133331188}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3178, "mean_loss": 0.01553900516890514}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3403, "mean_loss": 0.014966360855238803}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3548, "mean_loss": 0.014823388543414117}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3702, "mean_loss": 0.014830836974823246}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 4050, "batches": 28853, "samples": 14071, "mean_loss": 0.013219981466644336, "optimizer_steps": 4050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 177, "mean_loss": 0.011403158176190477}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 341, "mean_loss": 0.013224920114540547}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 489, "mean_loss": 0.012910192929601567}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 629, "mean_loss": 0.013278726560533024}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 827, "mean_loss": 0.015683878990911632}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1070, "mean_loss": 0.015185022382522612}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1232, "mean_loss": 0.015790123458650846}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1380, "mean_loss": 0.016708630953191618}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1572, "mean_loss": 0.017580500410763967}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1746, "mean_loss": 0.016780921686188673}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1909, "mean_loss": 0.016191457015449537}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2088, "mean_loss": 0.0160681700616182}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2272, "mean_loss": 0.016051933796813796}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2488, "mean_loss": 0.015327997316279368}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2611, "mean_loss": 0.014938247261125}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2777, "mean_loss": 0.015160127648994692}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2936, "mean_loss": 0.014873323024286888}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3134, "mean_loss": 0.01482004191210192}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3303, "mean_loss": 0.014955838164427413}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3536, "mean_loss": 0.014799045055429214}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 5050, "batches": 28853, "samples": 17607, "mean_loss": 0.013537103568646002, "optimizer_steps": 5050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 142, "mean_loss": 0.012402632007290098}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 282, "mean_loss": 0.015585168037755111}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 441, "mean_loss": 0.015140443495971039}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 581, "mean_loss": 0.013387210277312319}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 758, "mean_loss": 0.015763457657570895}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 925, "mean_loss": 0.014138804378768279}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1115, "mean_loss": 0.0134473000677102}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1265, "mean_loss": 0.014337051474202145}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1382, "mean_loss": 0.013615002313594424}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1534, "mean_loss": 0.013317761309745428}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1686, "mean_loss": 0.013588485732430997}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.013243905348550467}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2052, "mean_loss": 0.01418147807102673}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2226, "mean_loss": 0.013590875967149058}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2357, "mean_loss": 0.013683337952412576}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2487, "mean_loss": 0.013203588660955647}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2684, "mean_loss": 0.013639916349049718}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2884, "mean_loss": 0.013360021399264966}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3066, "mean_loss": 0.013602114825971809}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3276, "mean_loss": 0.013644006271219457}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 6050, "batches": 28853, "samples": 20883, "mean_loss": 0.013553873824530245, "optimizer_steps": 6050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 210, "mean_loss": 0.010450079713925897}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 426, "mean_loss": 0.008698807448310506}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 568, "mean_loss": 0.008683508502042353}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 682, "mean_loss": 0.00883002693860797}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 841, "mean_loss": 0.011028625559757766}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1049, "mean_loss": 0.011292414006555597}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1160, "mean_loss": 0.01061935722441533}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1318, "mean_loss": 0.010144644719080389}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1576, "mean_loss": 0.009598084439017968}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1743, "mean_loss": 0.010000838207545019}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1946, "mean_loss": 0.009580415379973166}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2063, "mean_loss": 0.00950839133697083}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2162, "mean_loss": 0.009731792756739683}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2304, "mean_loss": 0.009530038619232073}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2515, "mean_loss": 0.010111312121851833}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2781, "mean_loss": 0.010184838498937698}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3062, "mean_loss": 0.011019983645827387}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3343, "mean_loss": 0.01077185688314195}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3471, "mean_loss": 0.010561302280756751}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3575, "mean_loss": 0.010618990304573745}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 7050, "batches": 28853, "samples": 24458, "mean_loss": 0.01312488500353734, "optimizer_steps": 7050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 166, "mean_loss": 0.005981690938309598}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 317, "mean_loss": 0.005878163044589164}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 426, "mean_loss": 0.007864724445302135}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 534, "mean_loss": 0.007547670892703134}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 676, "mean_loss": 0.0072339162624512725}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 840, "mean_loss": 0.0076067700320328144}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1014, "mean_loss": 0.0077412052412863626}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1174, "mean_loss": 0.007649230007819983}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1249, "mean_loss": 0.007668126186484946}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1436, "mean_loss": 0.007921354162401693}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1568, "mean_loss": 0.008565728184238447}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1832, "mean_loss": 0.010003290425855911}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 1968, "mean_loss": 0.009846212004907182}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2139, "mean_loss": 0.011188880554608288}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2349, "mean_loss": 0.01097378219278504}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2500, "mean_loss": 0.010921116190752946}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2729, "mean_loss": 0.012001845639689764}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2878, "mean_loss": 0.011671758500847491}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3026, "mean_loss": 0.011439072047064779}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3173, "mean_loss": 0.012042445321724387}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 8050, "batches": 28853, "samples": 27631, "mean_loss": 0.013000583273220213, "optimizer_steps": 8050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 249, "mean_loss": 0.010269778482120365}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 373, "mean_loss": 0.009486487352360419}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 527, "mean_loss": 0.009094070646610549}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 660, "mean_loss": 0.00873047013036822}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 813, "mean_loss": 0.00832736276623966}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 987, "mean_loss": 0.007936753287853385}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1162, "mean_loss": 0.008025509821503102}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1340, "mean_loss": 0.008010674321740768}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1481, "mean_loss": 0.009084599126049536}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1693, "mean_loss": 0.00934482164808444}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1799, "mean_loss": 0.009327181441606639}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1930, "mean_loss": 0.009195874404153724}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2023, "mean_loss": 0.009248781804409932}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2214, "mean_loss": 0.00946474679507119}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2399, "mean_loss": 0.009649167283124276}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2541, "mean_loss": 0.009665755234605207}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2716, "mean_loss": 0.009882143486761976}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2931, "mean_loss": 0.009924135463742342}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3109, "mean_loss": 0.009759008659593714}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3267, "mean_loss": 0.010001817914293974}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 9050, "batches": 28853, "samples": 30898, "mean_loss": 0.01268350882090576, "optimizer_steps": 9050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 205, "mean_loss": 0.02154722336321933}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 369, "mean_loss": 0.014927363607289173}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 590, "mean_loss": 0.014565681874400825}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 792, "mean_loss": 0.01819184070138197}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 1023, "mean_loss": 0.017694393937468696}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1262, "mean_loss": 0.01623019005139484}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1374, "mean_loss": 0.015692968552374977}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1536, "mean_loss": 0.015297296149356043}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1756, "mean_loss": 0.015046136555180233}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1944, "mean_loss": 0.014578933422101582}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2101, "mean_loss": 0.01405584262978766}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2280, "mean_loss": 0.014088944373284711}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2460, "mean_loss": 0.014766100256910124}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2643, "mean_loss": 0.015259067600450612}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2777, "mean_loss": 0.014991340851171434}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2942, "mean_loss": 0.014510721086897493}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3168, "mean_loss": 0.014626680348601899}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3398, "mean_loss": 0.014417429389171012}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3562, "mean_loss": 0.014115167951365857}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3703, "mean_loss": 0.01418115763026892}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 10050, "batches": 28853, "samples": 34601, "mean_loss": 0.012843787238901533, "optimizer_steps": 10050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 298, "mean_loss": 0.02711079465795696}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 431, "mean_loss": 0.020966979098050335}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 585, "mean_loss": 0.01958627056242882}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 758, "mean_loss": 0.017186724073542308}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 981, "mean_loss": 0.01722443869485065}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1192, "mean_loss": 0.018259264733894314}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1354, "mean_loss": 0.018015515693541453}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1601, "mean_loss": 0.016490227689445636}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1729, "mean_loss": 0.017403385024675328}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1907, "mean_loss": 0.01650928116684211}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2049, "mean_loss": 0.01690260186652108}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2226, "mean_loss": 0.016820665378981626}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2376, "mean_loss": 0.01667766298908918}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2537, "mean_loss": 0.01629894725721132}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2778, "mean_loss": 0.01572453333237148}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2950, "mean_loss": 0.015207840949296952}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3178, "mean_loss": 0.015476497839239546}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3320, "mean_loss": 0.015273901890242383}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3523, "mean_loss": 0.015066461912347064}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3666, "mean_loss": 0.01494412515510587}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 11050, "batches": 28853, "samples": 38267, "mean_loss": 0.013045000785842895, "optimizer_steps": 11050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 125, "mean_loss": 0.005980679122265429}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 270, "mean_loss": 0.007918775827339334}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 418, "mean_loss": 0.008146705216885227}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 527, "mean_loss": 0.008161314430339987}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 738, "mean_loss": 0.012404560249252749}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 995, "mean_loss": 0.012026268242210168}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1150, "mean_loss": 0.01214211626246612}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1260, "mean_loss": 0.011708859078602732}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1455, "mean_loss": 0.012282941021350023}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1607, "mean_loss": 0.011808332519186457}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1745, "mean_loss": 0.01136354806587463}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1894, "mean_loss": 0.010986179782499567}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2128, "mean_loss": 0.010764447679635728}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2314, "mean_loss": 0.011209995151563228}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2460, "mean_loss": 0.010883523126220807}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2700, "mean_loss": 0.010583922083950946}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2881, "mean_loss": 0.010409371386863535}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3058, "mean_loss": 0.010607519583618073}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3209, "mean_loss": 0.01051494516169997}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3373, "mean_loss": 0.010690406617405335}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 12050, "batches": 28853, "samples": 41640, "mean_loss": 0.01285426961076749, "optimizer_steps": 12050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 172, "mean_loss": 0.02246130338049667}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 314, "mean_loss": 0.02159599994348546}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 506, "mean_loss": 0.01591674844056125}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 678, "mean_loss": 0.014231061458156327}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 801, "mean_loss": 0.015361720736350134}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 978, "mean_loss": 0.01442320380695088}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1124, "mean_loss": 0.013928170298210434}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1277, "mean_loss": 0.014034908806019774}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1454, "mean_loss": 0.014987324054949907}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1575, "mean_loss": 0.014307110054374095}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1700, "mean_loss": 0.014185329699128701}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1909, "mean_loss": 0.014589981451142002}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2045, "mean_loss": 0.014085427931000986}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2210, "mean_loss": 0.014388415111150863}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2396, "mean_loss": 0.014914656021270376}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2578, "mean_loss": 0.01563634031968476}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2733, "mean_loss": 0.01538011119404499}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2912, "mean_loss": 0.015344916373638565}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3129, "mean_loss": 0.015486574912603442}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3431, "mean_loss": 0.01582762258448585}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 13050, "batches": 28853, "samples": 45071, "mean_loss": 0.013080614135025388, "optimizer_steps": 13050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 243, "mean_loss": 0.007538587715354108}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 411, "mean_loss": 0.008361708403563857}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 561, "mean_loss": 0.008735450236695369}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 754, "mean_loss": 0.009459388667757102}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 882, "mean_loss": 0.010087236727663377}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1067, "mean_loss": 0.010788476176487042}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1262, "mean_loss": 0.013236634004184025}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1491, "mean_loss": 0.01355531870655773}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1701, "mean_loss": 0.01331482468955717}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1841, "mean_loss": 0.014356726564365525}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2067, "mean_loss": 0.013541804250050606}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2213, "mean_loss": 0.012991686189073523}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2413, "mean_loss": 0.013558452625661877}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2597, "mean_loss": 0.013809011702471143}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2724, "mean_loss": 0.01359382128762577}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2827, "mean_loss": 0.013321586386323685}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3040, "mean_loss": 0.014085528915663751}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3206, "mean_loss": 0.013671480330453543}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3353, "mean_loss": 0.0135147463908539}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3553, "mean_loss": 0.013259053389689118}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 14050, "batches": 28853, "samples": 48624, "mean_loss": 0.013093652854008198, "optimizer_steps": 14050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 176, "mean_loss": 0.020281854833724952}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 372, "mean_loss": 0.01714727706532495}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 563, "mean_loss": 0.016791380124479255}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 715, "mean_loss": 0.019385737240464277}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 973, "mean_loss": 0.019138089251581995}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1174, "mean_loss": 0.017904300531519188}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1343, "mean_loss": 0.01757180770596126}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1514, "mean_loss": 0.016968482816608774}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1729, "mean_loss": 0.01622928506275262}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1943, "mean_loss": 0.015542484112260063}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2114, "mean_loss": 0.015128196449427185}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2253, "mean_loss": 0.014813315428464181}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2412, "mean_loss": 0.01437889294990645}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2599, "mean_loss": 0.01410836294528026}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2794, "mean_loss": 0.013658273648915635}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2949, "mean_loss": 0.01339744066865104}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3179, "mean_loss": 0.012940678756366055}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3343, "mean_loss": 0.01337032856267782}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3497, "mean_loss": 0.013719261327670812}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3661, "mean_loss": 0.0135506866775477}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 15050, "batches": 28853, "samples": 52285, "mean_loss": 0.01312565439991961, "optimizer_steps": 15050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 150, "mean_loss": 0.017083737824189787}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 289, "mean_loss": 0.012861157733436261}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 488, "mean_loss": 0.012471832679708672}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 609, "mean_loss": 0.011957409935972801}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 789, "mean_loss": 0.011411338995289911}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1013, "mean_loss": 0.011061690177038489}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1134, "mean_loss": 0.011004721356668334}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1332, "mean_loss": 0.010436674035832498}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1564, "mean_loss": 0.00995088562756703}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1834, "mean_loss": 0.00996965725374009}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2011, "mean_loss": 0.01143917889842066}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2216, "mean_loss": 0.011767967711585248}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2371, "mean_loss": 0.011531725827278903}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2574, "mean_loss": 0.011350406119742857}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2757, "mean_loss": 0.011184702117890721}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2979, "mean_loss": 0.011638340501601022}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3121, "mean_loss": 0.011455042508508513}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3235, "mean_loss": 0.011558349924669436}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3396, "mean_loss": 0.01152118910120148}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3533, "mean_loss": 0.011904536137065937}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 16050, "batches": 28853, "samples": 55818, "mean_loss": 0.013048363726254088, "optimizer_steps": 16050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 223, "mean_loss": 0.009121903031960029}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 372, "mean_loss": 0.011147723248746667}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 520, "mean_loss": 0.01052481952893476}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 724, "mean_loss": 0.012994881653907395}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 887, "mean_loss": 0.012123387157833026}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1036, "mean_loss": 0.01166444920363223}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1169, "mean_loss": 0.010968065147138367}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1303, "mean_loss": 0.010759734507976779}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1447, "mean_loss": 0.01031394964984297}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1651, "mean_loss": 0.010307996199125856}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1821, "mean_loss": 0.00999420327096712}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.0097400757167946}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2082, "mean_loss": 0.009645629668409027}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2258, "mean_loss": 0.01092600423617984}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2501, "mean_loss": 0.010862542756261346}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2647, "mean_loss": 0.010643026531788492}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2822, "mean_loss": 0.010646771591505389}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2985, "mean_loss": 0.010354948127770974}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3147, "mean_loss": 0.01013193210136485}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3291, "mean_loss": 0.010288301664925982}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 17050, "batches": 28853, "samples": 59109, "mean_loss": 0.012894692301533136, "optimizer_steps": 17050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 130, "mean_loss": 0.023452220178352527}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 310, "mean_loss": 0.020828928778533855}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 452, "mean_loss": 0.016532951696782035}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 624, "mean_loss": 0.01585158851902144}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 865, "mean_loss": 0.01344382679096633}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 983, "mean_loss": 0.012729589066158844}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1155, "mean_loss": 0.013826544852816456}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1362, "mean_loss": 0.014064261563494596}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1471, "mean_loss": 0.013414808645300608}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1635, "mean_loss": 0.01266776933694338}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1825, "mean_loss": 0.012151689262811911}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1960, "mean_loss": 0.011698648072298075}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2133, "mean_loss": 0.011478379861077498}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2275, "mean_loss": 0.01204446917642829}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2407, "mean_loss": 0.014716542442837063}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2533, "mean_loss": 0.014431985258644111}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2791, "mean_loss": 0.014994536991828778}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2952, "mean_loss": 0.01454961184048798}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3200, "mean_loss": 0.014248938108157744}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3384, "mean_loss": 0.013819838722760599}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 18050, "batches": 28853, "samples": 62493, "mean_loss": 0.012944789040198806, "optimizer_steps": 18050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 164, "mean_loss": 0.007130136554734214}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 304, "mean_loss": 0.007294527481510733}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 499, "mean_loss": 0.009459841945339255}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 706, "mean_loss": 0.008921740616859061}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 854, "mean_loss": 0.008574555200441201}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1015, "mean_loss": 0.01024475014966963}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1143, "mean_loss": 0.010095280503203534}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1260, "mean_loss": 0.009627636058241247}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1407, "mean_loss": 0.010825532671463276}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1531, "mean_loss": 0.010730621278227279}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1738, "mean_loss": 0.011109431438509459}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1946, "mean_loss": 0.010768125935670376}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2092, "mean_loss": 0.011038692942368629}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2257, "mean_loss": 0.011410063632682838}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2421, "mean_loss": 0.011536887621365484}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2586, "mean_loss": 0.01216479591041287}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2703, "mean_loss": 0.012765081403757192}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2835, "mean_loss": 0.012946093039434383}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3000, "mean_loss": 0.013026176413424158}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3140, "mean_loss": 0.013280550504543012}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 19050, "batches": 28853, "samples": 65633, "mean_loss": 0.012960852468627201, "optimizer_steps": 19050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 159, "mean_loss": 0.0062159047880848434}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 403, "mean_loss": 0.00873960229084612}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 524, "mean_loss": 0.017021425746986465}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 654, "mean_loss": 0.015387532168366328}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 762, "mean_loss": 0.014242431208392938}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 889, "mean_loss": 0.013603829001995794}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1078, "mean_loss": 0.013293071950348232}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1258, "mean_loss": 0.017663731123875998}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1456, "mean_loss": 0.017827166461227156}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1660, "mean_loss": 0.01844902796332769}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1794, "mean_loss": 0.018680425092537443}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1911, "mean_loss": 0.017866200265549668}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2103, "mean_loss": 0.017478742681800632}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2304, "mean_loss": 0.016931159032462045}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2471, "mean_loss": 0.016084137680459406}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2641, "mean_loss": 0.01646904303744384}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2836, "mean_loss": 0.01618088824826451}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2997, "mean_loss": 0.01612976082175079}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3167, "mean_loss": 0.015789266375023172}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3392, "mean_loss": 0.015167148033195292}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 20050, "batches": 28853, "samples": 69025, "mean_loss": 0.01306927339662452, "optimizer_steps": 20050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 188, "mean_loss": 0.01213454987365812}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 394, "mean_loss": 0.0125588730627938}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 558, "mean_loss": 0.015097725155573892}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 714, "mean_loss": 0.014332835504482565}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 990, "mean_loss": 0.013355382939687733}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1153, "mean_loss": 0.014751856599731253}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1355, "mean_loss": 0.017703943356838957}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1552, "mean_loss": 0.01839853489109748}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1706, "mean_loss": 0.018375007355123582}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1868, "mean_loss": 0.017270456717476224}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2059, "mean_loss": 0.016597036380787127}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2265, "mean_loss": 0.016196721290581535}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2480, "mean_loss": 0.017619713755336688}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2667, "mean_loss": 0.017933437439203954}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2825, "mean_loss": 0.017599818463771053}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3028, "mean_loss": 0.017417720979804086}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3279, "mean_loss": 0.017689092018622787}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3481, "mean_loss": 0.018068437807427017}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3666, "mean_loss": 0.01759161881611424}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3833, "mean_loss": 0.01748331720435867}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 21050, "batches": 28853, "samples": 72858, "mean_loss": 0.013301492643859485, "optimizer_steps": 21050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 188, "mean_loss": 0.00499270350345351}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 339, "mean_loss": 0.005447313826957684}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 513, "mean_loss": 0.007157573285415046}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 700, "mean_loss": 0.009879881100953622}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 800, "mean_loss": 0.009959467581611535}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 948, "mean_loss": 0.009612158917654198}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1116, "mean_loss": 0.009354190805291224}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1347, "mean_loss": 0.009748202877565313}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1501, "mean_loss": 0.010180629099151343}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1684, "mean_loss": 0.010817320611918396}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1849, "mean_loss": 0.010823421887476063}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2068, "mean_loss": 0.012019235532919626}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2225, "mean_loss": 0.011587628316189152}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2458, "mean_loss": 0.011162038664188122}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2564, "mean_loss": 0.011064963333481503}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2860, "mean_loss": 0.011070777392949033}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3017, "mean_loss": 0.011156188557570786}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3213, "mean_loss": 0.011114675524016498}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3388, "mean_loss": 0.011252301481575857}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3552, "mean_loss": 0.011077614118729397}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 22050, "batches": 28853, "samples": 76410, "mean_loss": 0.013198113288784728, "optimizer_steps": 22050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 192, "mean_loss": 0.00698355662037405}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 380, "mean_loss": 0.016780861691988416}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 636, "mean_loss": 0.013599072449672938}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 843, "mean_loss": 0.01337807315912966}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 998, "mean_loss": 0.016157575920707115}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1160, "mean_loss": 0.017122452270895934}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1339, "mean_loss": 0.01638553929865559}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1540, "mean_loss": 0.016751638278947212}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1713, "mean_loss": 0.016120416824837742}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1901, "mean_loss": 0.015966562910436816}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2022, "mean_loss": 0.015499623431878268}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2201, "mean_loss": 0.014894726492938666}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2423, "mean_loss": 0.014957910668943001}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2562, "mean_loss": 0.014375154204584097}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2724, "mean_loss": 0.01391786258049219}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2864, "mean_loss": 0.013585081591504834}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3035, "mean_loss": 0.013895670030265279}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3204, "mean_loss": 0.01371520939234385}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3351, "mean_loss": 0.014034471197636874}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3524, "mean_loss": 0.013956684145037028}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 23050, "batches": 28853, "samples": 79934, "mean_loss": 0.013231555925177666, "optimizer_steps": 23050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 167, "mean_loss": 0.020071547059481686}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 320, "mean_loss": 0.016647099737019742}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 516, "mean_loss": 0.014936003145218516}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 700, "mean_loss": 0.014665778522945143}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 830, "mean_loss": 0.013903763822100339}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1038, "mean_loss": 0.013249595566378612}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1222, "mean_loss": 0.013712128704391289}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1462, "mean_loss": 0.013502460684329169}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1711, "mean_loss": 0.014302082778368861}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1911, "mean_loss": 0.01443956122896427}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2105, "mean_loss": 0.014039506077392561}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2289, "mean_loss": 0.01401482421467215}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2452, "mean_loss": 0.01354317900607534}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2591, "mean_loss": 0.013503966270968431}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2764, "mean_loss": 0.013573557948590864}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2914, "mean_loss": 0.013450495632694218}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3039, "mean_loss": 0.013137152708728079}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3192, "mean_loss": 0.012923832132603872}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3357, "mean_loss": 0.012840547639853577}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3561, "mean_loss": 0.012820876072775766}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 24050, "batches": 28853, "samples": 83495, "mean_loss": 0.01321404073319727, "optimizer_steps": 24050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 165, "mean_loss": 0.009536583322297894}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 332, "mean_loss": 0.008883223818413106}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 609, "mean_loss": 0.013830162472762962}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 796, "mean_loss": 0.014430206122044147}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 975, "mean_loss": 0.013947660088873444}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1189, "mean_loss": 0.014691138336720075}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1339, "mean_loss": 0.014393178961763842}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1546, "mean_loss": 0.014670466287578137}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1717, "mean_loss": 0.014324991573910753}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1958, "mean_loss": 0.014251682262272414}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2128, "mean_loss": 0.014695217061397895}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2416, "mean_loss": 0.015231071690172427}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2579, "mean_loss": 0.014861577617209628}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2781, "mean_loss": 0.014811881081187238}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2973, "mean_loss": 0.015289814097695134}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3154, "mean_loss": 0.015082997253798622}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3351, "mean_loss": 0.015462167199579617}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3561, "mean_loss": 0.015033371113398947}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3725, "mean_loss": 0.014739167856305663}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3925, "mean_loss": 0.014621266621138284}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 25050, "batches": 28853, "samples": 87420, "mean_loss": 0.013277222632192562, "optimizer_steps": 25050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 219, "mean_loss": 0.010390025801684487}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 374, "mean_loss": 0.01233913211315686}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 513, "mean_loss": 0.010649630268872307}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 659, "mean_loss": 0.012070652679010254}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 899, "mean_loss": 0.011908197521221192}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1109, "mean_loss": 0.011099009163890998}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1309, "mean_loss": 0.010828063957573884}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1500, "mean_loss": 0.010997651308231677}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1706, "mean_loss": 0.011127354220772689}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1882, "mean_loss": 0.010782679669335327}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2083, "mean_loss": 0.011050453593592736}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2247, "mean_loss": 0.010801653477833094}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2385, "mean_loss": 0.010664308821954287}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2521, "mean_loss": 0.011429529317221703}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2695, "mean_loss": 0.011209559742104719}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2879, "mean_loss": 0.010917713304264417}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3088, "mean_loss": 0.010940493852650467}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3222, "mean_loss": 0.010668620542845094}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3368, "mean_loss": 0.010553127338628909}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3544, "mean_loss": 0.010340093143805167}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 26050, "batches": 28853, "samples": 90964, "mean_loss": 0.013162790693108476, "optimizer_steps": 26050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 109, "mean_loss": 0.005985913462851436}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 275, "mean_loss": 0.007404880712274462}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 530, "mean_loss": 0.018896326644209933}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 688, "mean_loss": 0.01631583437635929}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 850, "mean_loss": 0.014741726635119823}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1065, "mean_loss": 0.015232162726955585}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1234, "mean_loss": 0.014398764391971988}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1348, "mean_loss": 0.013816381679464047}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1503, "mean_loss": 0.013567148923520086}
+Traceback (most recent call last):
+  File "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/source/training/posttrain_p37_native_hw.py", line 391, in <module>
+    main()
+  File "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/source/training/posttrain_p37_native_hw.py", line 335, in main
+    loss = trainer.run_epoch(
+  File "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/source/training/source/map_flow_matching_p1/scripts/train_p37_ordered_field.py", line 586, in run_epoch
+    if not torch.isfinite(norm):
+KeyboardInterrupt
+Loaded dataset: 111600 samples
+Map shapes: ((64, 64), (64, 96), (96, 64), (96, 160), (127, 193), (128, 192), (160, 96), (192, 128), (193, 127), (256, 384), (384, 256), (512, 768), (768, 512))
+Horizon: 128
+Materialized unique maps: 128/9300
+Materialized unique maps: 256/9300
+Materialized unique maps: 384/9300
+Materialized unique maps: 512/9300
+Materialized unique maps: 640/9300
+Materialized unique maps: 768/9300
+Materialized unique maps: 896/9300
+Materialized unique maps: 1024/9300
+Materialized unique maps: 1152/9300
+Materialized unique maps: 1280/9300
+Materialized unique maps: 1408/9300
+Materialized unique maps: 1536/9300
+Materialized unique maps: 1664/9300
+Materialized unique maps: 1792/9300
+Materialized unique maps: 1920/9300
+Materialized unique maps: 2048/9300
+Materialized unique maps: 2176/9300
+Materialized unique maps: 2304/9300
+Materialized unique maps: 2432/9300
+Materialized unique maps: 2560/9300
+Materialized unique maps: 2688/9300
+Materialized unique maps: 2816/9300
+Materialized unique maps: 2944/9300
+Materialized unique maps: 3072/9300
+Materialized unique maps: 3200/9300
+Materialized unique maps: 3328/9300
+Materialized unique maps: 3456/9300
+Materialized unique maps: 3584/9300
+Materialized unique maps: 3712/9300
+Materialized unique maps: 3840/9300
+Materialized unique maps: 3968/9300
+Materialized unique maps: 4096/9300
+Materialized unique maps: 4224/9300
+Materialized unique maps: 4352/9300
+Materialized unique maps: 4480/9300
+Materialized unique maps: 4608/9300
+Materialized unique maps: 4736/9300
+Materialized unique maps: 4864/9300
+Materialized unique maps: 4992/9300
+Materialized unique maps: 5120/9300
+Materialized unique maps: 5248/9300
+Materialized unique maps: 5376/9300
+Materialized unique maps: 5504/9300
+Materialized unique maps: 5632/9300
+Materialized unique maps: 5760/9300
+Materialized unique maps: 5888/9300
+Materialized unique maps: 6016/9300
+Materialized unique maps: 6144/9300
+Materialized unique maps: 6272/9300
+Materialized unique maps: 6400/9300
+Materialized unique maps: 6528/9300
+Materialized unique maps: 6656/9300
+Materialized unique maps: 6784/9300
+Materialized unique maps: 6912/9300
+Materialized unique maps: 7040/9300
+Materialized unique maps: 7168/9300
+Materialized unique maps: 7296/9300
+Materialized unique maps: 7424/9300
+Materialized unique maps: 7552/9300
+Materialized unique maps: 7680/9300
+Materialized unique maps: 7808/9300
+Materialized unique maps: 7936/9300
+Materialized unique maps: 8064/9300
+Materialized unique maps: 8192/9300
+Materialized unique maps: 8320/9300
+Materialized unique maps: 8448/9300
+Materialized unique maps: 8576/9300
+Materialized unique maps: 8704/9300
+Materialized unique maps: 8832/9300
+Materialized unique maps: 8960/9300
+Materialized unique maps: 9088/9300
+Materialized unique maps: 9216/9300
+Materialized unique maps: 9300/9300
+{"stage": "epoch_start", "epoch": 1, "train_batches": 28853, "train_tasks": 100440, "validation_tasks": 11160, "resume_completed_batches": 26050, "lr": 5e-05, "objective": "continuous segments + support_balanced CFM + dense multispan relative progress slope", "route_increment_weight": 0.0, "route_multispan_weight": 0.01}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 109, "mean_loss": 0.005985486639958354}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 275, "mean_loss": 0.007404369009362364}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 530, "mean_loss": 0.018900130831588164}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 688, "mean_loss": 0.016319063151756782}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 850, "mean_loss": 0.014744376595515538}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1065, "mean_loss": 0.015233300196142439}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1234, "mean_loss": 0.014399947096405753}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1348, "mean_loss": 0.013817522684385094}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1503, "mean_loss": 0.013567985996776846}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1697, "mean_loss": 0.013514998272363465}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1840, "mean_loss": 0.013550551341319553}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2032, "mean_loss": 0.01402485420549342}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2171, "mean_loss": 0.01359746643992899}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2318, "mean_loss": 0.013545007665406665}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2572, "mean_loss": 0.014287176665324575}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2736, "mean_loss": 0.014888889149282563}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2846, "mean_loss": 0.014488185807796344}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3062, "mean_loss": 0.01453388047213806}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3194, "mean_loss": 0.014193078251210762}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3425, "mean_loss": 0.014477843985821453}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 27050, "batches": 28853, "samples": 94389, "mean_loss": 0.013210508727281333, "optimizer_steps": 27050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 174, "mean_loss": 0.009885933828251115}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 357, "mean_loss": 0.01606254945691748}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 515, "mean_loss": 0.014077194984007663}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.014185181016575892}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 864, "mean_loss": 0.01274141206893007}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1025, "mean_loss": 0.011609462949265612}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1259, "mean_loss": 0.011950619770866776}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1395, "mean_loss": 0.012120045974431726}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1557, "mean_loss": 0.011835234794745075}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1717, "mean_loss": 0.012656899368898682}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1873, "mean_loss": 0.012834859023927784}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2114, "mean_loss": 0.012859277355827411}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2272, "mean_loss": 0.01271660817235923}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2390, "mean_loss": 0.013013388999985243}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2597, "mean_loss": 0.012672804353395057}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2765, "mean_loss": 0.01257033418564237}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2908, "mean_loss": 0.012280449653134818}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3053, "mean_loss": 0.012036868637856133}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3169, "mean_loss": 0.011719518338699504}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3296, "mean_loss": 0.011625738913228382}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 28050, "batches": 28853, "samples": 97685, "mean_loss": 0.01315703684002005, "optimizer_steps": 28050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 803, "samples": 207, "mean_loss": 0.01469658686698455}
+{"stage": "train_batch", "batch": 100, "batches": 803, "samples": 368, "mean_loss": 0.014372547985618914}
+{"stage": "train_batch", "batch": 150, "batches": 803, "samples": 528, "mean_loss": 0.01598145459480072}
+{"stage": "train_batch", "batch": 200, "batches": 803, "samples": 684, "mean_loss": 0.01665918504771959}
+{"stage": "train_batch", "batch": 250, "batches": 803, "samples": 893, "mean_loss": 0.017828438958282972}
+{"stage": "train_batch", "batch": 300, "batches": 803, "samples": 1028, "mean_loss": 0.016269255217908996}
+{"stage": "train_batch", "batch": 350, "batches": 803, "samples": 1177, "mean_loss": 0.015108910421538186}
+{"stage": "train_batch", "batch": 400, "batches": 803, "samples": 1322, "mean_loss": 0.014189704584536169}
+{"stage": "train_batch", "batch": 450, "batches": 803, "samples": 1523, "mean_loss": 0.014498391017421421}
+{"stage": "train_batch", "batch": 500, "batches": 803, "samples": 1693, "mean_loss": 0.013892523699548158}
+{"stage": "train_batch", "batch": 550, "batches": 803, "samples": 1852, "mean_loss": 0.014648680522044483}
+{"stage": "train_batch", "batch": 600, "batches": 803, "samples": 2083, "mean_loss": 0.014005890435413325}
+{"stage": "train_batch", "batch": 650, "batches": 803, "samples": 2273, "mean_loss": 0.013977065933756637}
+{"stage": "train_batch", "batch": 700, "batches": 803, "samples": 2450, "mean_loss": 0.013800252462138556}
+{"stage": "train_batch", "batch": 750, "batches": 803, "samples": 2576, "mean_loss": 0.014258861190784775}
+{"stage": "train_batch", "batch": 800, "batches": 803, "samples": 2751, "mean_loss": 0.01420062439775508}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 28853, "batches": 28853, "samples": 100440, "mean_loss": 0.01318518538503996, "optimizer_steps": 28853, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/B_dense_multispan/checkpoints/latest_training_state.pth"}
+{"stage": "validation_batch", "batch": 50, "batches": 3419, "samples": 50, "mean_loss": 0.004131533603649587}
+{"stage": "validation_batch", "batch": 100, "batches": 3419, "samples": 100, "mean_loss": 0.004647461845888756}
+{"stage": "validation_batch", "batch": 150, "batches": 3419, "samples": 150, "mean_loss": 0.012618875305633992}
+{"stage": "validation_batch", "batch": 200, "batches": 3419, "samples": 200, "mean_loss": 0.012332700406550429}
+{"stage": "validation_batch", "batch": 250, "batches": 3419, "samples": 250, "mean_loss": 0.01210498094675131}
+{"stage": "validation_batch", "batch": 300, "batches": 3419, "samples": 300, "mean_loss": 0.010706312722565297}
+{"stage": "validation_batch", "batch": 350, "batches": 3419, "samples": 350, "mean_loss": 0.010381631141894363}
+{"stage": "validation_batch", "batch": 400, "batches": 3419, "samples": 400, "mean_loss": 0.01226796586139244}
+{"stage": "validation_batch", "batch": 450, "batches": 3419, "samples": 450, "mean_loss": 0.011382364823948592}
+{"stage": "validation_batch", "batch": 500, "batches": 3419, "samples": 500, "mean_loss": 0.011503713604004588}
+{"stage": "validation_batch", "batch": 550, "batches": 3419, "samples": 550, "mean_loss": 0.011076594891016032}
+{"stage": "validation_batch", "batch": 600, "batches": 3419, "samples": 600, "mean_loss": 0.010474568989642042}
+{"stage": "validation_batch", "batch": 650, "batches": 3419, "samples": 650, "mean_loss": 0.010055441758461082}
+{"stage": "validation_batch", "batch": 700, "batches": 3419, "samples": 700, "mean_loss": 0.013057863262989225}
+{"stage": "validation_batch", "batch": 750, "batches": 3419, "samples": 750, "mean_loss": 0.012623198919347487}
+{"stage": "validation_batch", "batch": 800, "batches": 3419, "samples": 800, "mean_loss": 0.012103738444093324}
+{"stage": "validation_batch", "batch": 850, "batches": 3419, "samples": 850, "mean_loss": 0.012044739969218534}
+{"stage": "validation_batch", "batch": 900, "batches": 3419, "samples": 900, "mean_loss": 0.011576443054073024}
+{"stage": "validation_batch", "batch": 950, "batches": 3419, "samples": 1132, "mean_loss": 0.011747178028072534}
+{"stage": "validation_batch", "batch": 1000, "batches": 3419, "samples": 1532, "mean_loss": 0.012639423433867406}
+{"stage": "validation_batch", "batch": 1050, "batches": 3419, "samples": 1956, "mean_loss": 0.011949162016351206}
+{"stage": "validation_batch", "batch": 1100, "batches": 3419, "samples": 2556, "mean_loss": 0.01191125552633226}
+{"stage": "validation_batch", "batch": 1150, "batches": 3419, "samples": 3004, "mean_loss": 0.012020647555114016}
+{"stage": "validation_batch", "batch": 1200, "batches": 3419, "samples": 3404, "mean_loss": 0.01179988860725949}
+{"stage": "validation_batch", "batch": 1250, "batches": 3419, "samples": 3762, "mean_loss": 0.01157112775098255}
+{"stage": "validation_batch", "batch": 1300, "batches": 3419, "samples": 3812, "mean_loss": 0.011525467233536587}
+{"stage": "validation_batch", "batch": 1350, "batches": 3419, "samples": 3862, "mean_loss": 0.011633421962324818}
+{"stage": "validation_batch", "batch": 1400, "batches": 3419, "samples": 3912, "mean_loss": 0.01172148298013379}
+{"stage": "validation_batch", "batch": 1450, "batches": 3419, "samples": 3962, "mean_loss": 0.011671453951748385}
+{"stage": "validation_batch", "batch": 1500, "batches": 3419, "samples": 4012, "mean_loss": 0.011832091796947705}
+{"stage": "validation_batch", "batch": 1550, "batches": 3419, "samples": 4062, "mean_loss": 0.012231929202740088}
+{"stage": "validation_batch", "batch": 1600, "batches": 3419, "samples": 4112, "mean_loss": 0.012138526938234898}
+{"stage": "validation_batch", "batch": 1650, "batches": 3419, "samples": 4162, "mean_loss": 0.012047968996136967}
+{"stage": "validation_batch", "batch": 1700, "batches": 3419, "samples": 4212, "mean_loss": 0.011963431903103675}
+{"stage": "validation_batch", "batch": 1750, "batches": 3419, "samples": 4262, "mean_loss": 0.011889401127733472}
+{"stage": "validation_batch", "batch": 1800, "batches": 3419, "samples": 4312, "mean_loss": 0.01189958950969053}
+{"stage": "validation_batch", "batch": 1850, "batches": 3419, "samples": 4362, "mean_loss": 0.011991365009868154}
+{"stage": "validation_batch", "batch": 1900, "batches": 3419, "samples": 4412, "mean_loss": 0.012659070987651174}
+{"stage": "validation_batch", "batch": 1950, "batches": 3419, "samples": 4462, "mean_loss": 0.012591501330603917}
+{"stage": "validation_batch", "batch": 2000, "batches": 3419, "samples": 4512, "mean_loss": 0.012527893801395571}
+{"stage": "validation_batch", "batch": 2050, "batches": 3419, "samples": 4562, "mean_loss": 0.012437711344909726}
+{"stage": "validation_batch", "batch": 2100, "batches": 3419, "samples": 4612, "mean_loss": 0.012403034037428637}
+{"stage": "validation_batch", "batch": 2150, "batches": 3419, "samples": 4662, "mean_loss": 0.012329018069010423}
+{"stage": "validation_batch", "batch": 2200, "batches": 3419, "samples": 4712, "mean_loss": 0.012630448688967942}
+{"stage": "validation_batch", "batch": 2250, "batches": 3419, "samples": 4762, "mean_loss": 0.012576533653589772}
+{"stage": "validation_batch", "batch": 2300, "batches": 3419, "samples": 5076, "mean_loss": 0.01241484721117218}
+{"stage": "validation_batch", "batch": 2350, "batches": 3419, "samples": 5716, "mean_loss": 0.012364111546046115}
+{"stage": "validation_batch", "batch": 2400, "batches": 3419, "samples": 6476, "mean_loss": 0.012715861360004658}
+{"stage": "validation_batch", "batch": 2450, "batches": 3419, "samples": 6576, "mean_loss": 0.01260877336061664}
+{"stage": "validation_batch", "batch": 2500, "batches": 3419, "samples": 6676, "mean_loss": 0.012493758516448683}
+{"stage": "validation_batch", "batch": 2550, "batches": 3419, "samples": 6776, "mean_loss": 0.012358911510250195}
+{"stage": "validation_batch", "batch": 2600, "batches": 3419, "samples": 6876, "mean_loss": 0.01224226669274781}
+{"stage": "validation_batch", "batch": 2650, "batches": 3419, "samples": 6976, "mean_loss": 0.012130303530305296}
+{"stage": "validation_batch", "batch": 2700, "batches": 3419, "samples": 7076, "mean_loss": 0.012027794292489381}
+{"stage": "validation_batch", "batch": 2750, "batches": 3419, "samples": 7176, "mean_loss": 0.011966839111913152}
+{"stage": "validation_batch", "batch": 2800, "batches": 3419, "samples": 8216, "mean_loss": 0.01319278396673829}
+{"stage": "validation_batch", "batch": 2850, "batches": 3419, "samples": 9056, "mean_loss": 0.013680190353859825}
+{"stage": "validation_batch", "batch": 2900, "batches": 3419, "samples": 9456, "mean_loss": 0.01339710275018208}
+{"stage": "validation_batch", "batch": 2950, "batches": 3419, "samples": 9700, "mean_loss": 0.013314057311187762}
+{"stage": "validation_batch", "batch": 3000, "batches": 3419, "samples": 9800, "mean_loss": 0.013257240740459399}
+{"stage": "validation_batch", "batch": 3050, "batches": 3419, "samples": 9900, "mean_loss": 0.013175366733924632}
+{"stage": "validation_batch", "batch": 3100, "batches": 3419, "samples": 10000, "mean_loss": 0.013120797948809923}
+{"stage": "validation_batch", "batch": 3150, "batches": 3419, "samples": 10100, "mean_loss": 0.013036030182735373}
+{"stage": "validation_batch", "batch": 3200, "batches": 3419, "samples": 10200, "mean_loss": 0.012949622297244645}
+{"stage": "validation_batch", "batch": 3250, "batches": 3419, "samples": 10300, "mean_loss": 0.012920076193062485}
+{"stage": "validation_batch", "batch": 3300, "batches": 3419, "samples": 10400, "mean_loss": 0.012916551388594738}
+{"stage": "validation_batch", "batch": 3350, "batches": 3419, "samples": 10608, "mean_loss": 0.012825282374983935}
+{"stage": "validation_batch", "batch": 3400, "batches": 3419, "samples": 11008, "mean_loss": 0.012825189271639765}
+{"stage": "epoch_complete", "epoch": 1, "train_loss": 0.01318518538503996, "val_loss": 0.01278678570538611, "train_tasks": 100440, "validation_tasks": 11160, "geometry": {"tasks": 26, "candidate_success_rate": 0.9423076923076923, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.9423076923076923, "accepted_candidate_rate": 0.9423076923076923, "accepted_safe_candidate_rate": 0.9423076923076923, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0, "reference_continuity_diagnostics": [{"task_id": 63967, "reference_continuity": {"valid": true, "length_px": 47.38595599246649, "samples": 96, "spacing_px": 0.4987995367628052, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 39796, "reference_continuity": {"valid": true, "length_px": 52.381060831780175, "samples": 106, "spacing_px": 0.49886724601695404, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 62854, "reference_continuity": {"valid": true, "length_px": 52.294126396587075, "samples": 106, "spacing_px": 0.498039299015115, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 39947, "reference_continuity": {"valid": true, "length_px": 41.07101338906563, "samples": 84, "spacing_px": 0.4948314866152485, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.03260302543640137, "max_drawdown_on_support": 0.03260302543640137, "longest_below_previous_peak_px": 4.453483379537236, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.030522078275680542, "max_drawdown_on_support": 0.030522078275680542, "longest_below_previous_peak_px": 4.453483379537236, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.022850871086120605, "max_drawdown_on_support": 0.022850871086120605, "longest_below_previous_peak_px": 4.453483379537236, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.03133292496204376, "max_drawdown_on_support": 0.03133292496204376, "longest_below_previous_peak_px": 5.937977839382983, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 102728, "reference_continuity": {"valid": true, "length_px": 53.35252888697805, "samples": 108, "spacing_px": 0.49862176529886026, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 55453, "reference_continuity": {"valid": true, "length_px": 73.21754264157217, "samples": 148, "spacing_px": 0.4980785213712392, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 55594, "reference_continuity": {"valid": true, "length_px": 228.7540066973636, "samples": 459, "spacing_px": 0.49946289671913446, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 54477, "reference_continuity": {"valid": true, "length_px": 147.93658669706107, "samples": 297, "spacing_px": 0.4997857658684496, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.1849837750196457, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 89.46165209045247, "low_advance_16px_fraction": 0.6742424242424242, "longest_low_advance_window_start_run_px": 88.96186632458401, "support_coverage_length_fraction": 0.36148648648648646, "missing_support_total_px": 94.45950974913698, "longest_missing_support_gap_px": 94.45950974913698}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 44433, "reference_continuity": {"valid": true, "length_px": 62.457037516558465, "samples": 126, "spacing_px": 0.4996563001324677, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 73734, "reference_continuity": {"valid": true, "length_px": 77.1997481932439, "samples": 156, "spacing_px": 0.49806289156931555, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.002515852451324463, "max_drawdown_on_support": 0.002515852451324463, "longest_below_previous_peak_px": 3.984503132554522, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.002049684524536133, "max_drawdown_on_support": 0.002049684524536133, "longest_below_previous_peak_px": 2.9883773494158845, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.00033420324325561523, "max_drawdown_on_support": 0.00033420324325561523, "longest_below_previous_peak_px": 0.9961257831386234, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 60567, "reference_continuity": {"valid": true, "length_px": 152.23306699959454, "samples": 306, "spacing_px": 0.4991248098347362, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 47857, "reference_continuity": {"valid": true, "length_px": 246.35221805869676, "samples": 494, "spacing_px": 0.49970023946997316, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 1.0848045349121094e-05, "max_drawdown_on_support": 1.0848045349121094e-05, "longest_below_previous_peak_px": 0.9994004789399469, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0000000000000002, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0000000000000002, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0013925433158874512, "max_drawdown_on_support": 0.0013925433158874512, "longest_below_previous_peak_px": 3.497901676289814, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0000000000000002, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 1.424551010131836e-05, "max_drawdown_on_support": 1.424551010131836e-05, "longest_below_previous_peak_px": 0.49970023946997344, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0000000000000002, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 75932, "reference_continuity": {"valid": true, "length_px": 140.55775091551166, "samples": 283, "spacing_px": 0.49843174083514774, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0006082653999328613, "max_drawdown_on_support": 0.0006082653999328613, "longest_below_previous_peak_px": 1.4952952225054332, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0042032599449157715, "max_drawdown_on_support": 0.0042032599449157715, "longest_below_previous_peak_px": 6.47961263085692, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0020418167114257812, "max_drawdown_on_support": 0.0020418167114257812, "longest_below_previous_peak_px": 3.9874539266811837, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.005411386489868164, "max_drawdown_on_support": 0.005411386489868164, "longest_below_previous_peak_px": 5.9811808900217756, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 7411, "reference_continuity": {"valid": true, "length_px": 185.26397107455153, "samples": 372, "spacing_px": 0.4993638034354489, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 110797, "reference_continuity": {"valid": true, "length_px": 214.6109821073523, "samples": 431, "spacing_px": 0.4990953072264007, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 8.690357208251953e-05, "max_drawdown_on_support": 8.690357208251953e-05, "longest_below_previous_peak_px": 0.9981906144527954, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.001042783260345459, "max_drawdown_on_support": 0.001042783260345459, "longest_below_previous_peak_px": 1.9963812289056193, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 8858, "reference_continuity": {"valid": true, "length_px": 110.26111388234715, "samples": 222, "spacing_px": 0.49891906734093733, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.020960241556167603, "max_drawdown_on_support": 0.020960241556167603, "longest_below_previous_peak_px": 9.479462279477808, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.015547037124633789, "max_drawdown_on_support": 0.015547037124633789, "longest_below_previous_peak_px": 8.481624144795937, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.016325481235980988, "max_drawdown_on_support": 0.016325481235980988, "longest_below_previous_peak_px": 9.479462279477808, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.01087544858455658, "max_drawdown_on_support": 0.01087544858455658, "longest_below_previous_peak_px": 8.481624144795935, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 85075, "reference_continuity": {"valid": true, "length_px": 114.28061060164882, "samples": 230, "spacing_px": 0.4990419676927896, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 80156, "reference_continuity": {"valid": true, "length_px": 122.6133887562604, "samples": 247, "spacing_px": 0.4984284095782943, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.000330507755279541, "max_drawdown_on_support": 0.000330507755279541, "longest_below_previous_peak_px": 0.4984284095782954, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.001965045928955078, "max_drawdown_on_support": 0.001965045928955078, "longest_below_previous_peak_px": 2.9905704574697687, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0006344467401504517, "max_drawdown_on_support": 0.0006344467401504517, "longest_below_previous_peak_px": 1.4952852287348861, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0005736202001571655, "max_drawdown_on_support": 0.0005736202001571655, "longest_below_previous_peak_px": 1.4952852287348826, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 73307, "reference_continuity": {"valid": true, "length_px": 412.75111803896755, "samples": 827, "spacing_px": 0.49969869011981544, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.005139824002981186, "max_drawdown_on_support": 0.005139824002981186, "longest_below_previous_peak_px": 8.494877732036866, "low_advance_16px_fraction": 0.0025188916876574307, "longest_low_advance_window_start_run_px": 0.9993973802395999, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.034068124229647445, "max_drawdown_on_support": 0.019712097011506557, "longest_below_previous_peak_px": 186.38761141469115, "low_advance_16px_fraction": 0.4534005037783375, "longest_low_advance_window_start_run_px": 179.89152844313355, "support_coverage_length_fraction": 0.5556900726392252, "missing_support_total_px": 183.38941927397227, "longest_missing_support_gap_px": 183.38941927397227}, {"max_cumulative_progress_drawdown": 0.00713348388671875, "max_drawdown_on_support": 0.00713348388671875, "longest_below_previous_peak_px": 5.996384281437788, "low_advance_16px_fraction": 0.007556675062972292, "longest_low_advance_window_start_run_px": 2.9981921407189702, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.010684430599212646, "max_drawdown_on_support": 0.010684430599212646, "longest_below_previous_peak_px": 9.494275112276494, "low_advance_16px_fraction": 0.006297229219143577, "longest_low_advance_window_start_run_px": 2.498493450599085, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 75673, "reference_continuity": {"valid": true, "length_px": 237.40662787213492, "samples": 476, "spacing_px": 0.4998034270992314, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.12231655018695164, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 138.44554930648707, "low_advance_16px_fraction": 0.6162528216704289, "longest_low_advance_window_start_run_px": 136.44633559809017, "support_coverage_length_fraction": 0.4042105263157894, "missing_support_total_px": 141.4443698690825, "longest_missing_support_gap_px": 141.4443698690825}, {"max_cumulative_progress_drawdown": 0.1212117950034326, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 136.94613902518938, "low_advance_16px_fraction": 0.6162528216704289, "longest_low_advance_window_start_run_px": 136.44633559809017, "support_coverage_length_fraction": 0.4042105263157894, "missing_support_total_px": 141.4443698690825, "longest_missing_support_gap_px": 141.4443698690825}]}}, {"task_id": 4211, "reference_continuity": {"valid": true, "length_px": 126.35329907446538, "samples": 254, "spacing_px": 0.4994201544445272, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.0, "max_drawdown_on_support": 0.0, "longest_below_previous_peak_px": 0.0, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}]}}, {"task_id": 756, "reference_continuity": {"valid": true, "length_px": 438.56262413118554, "samples": 879, "spacing_px": 0.49950184980772844, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.659710105144768, "max_drawdown_on_support": 0.0029699206352233887, "longest_below_previous_peak_px": 145.355038294049, "low_advance_16px_fraction": 0.3392434988179669, "longest_low_advance_window_start_run_px": 140.36001979597165, "support_coverage_length_fraction": 0.6674259681093394, "missing_support_total_px": 145.8545401438567, "longest_missing_support_gap_px": 145.8545401438567}, {"max_cumulative_progress_drawdown": 0.6680405734909527, "max_drawdown_on_support": 0.0032958984375, "longest_below_previous_peak_px": 145.355038294049, "low_advance_16px_fraction": 0.3333333333333333, "longest_low_advance_window_start_run_px": 140.36001979597165, "support_coverage_length_fraction": 0.6674259681093394, "missing_support_total_px": 145.8545401438567, "longest_missing_support_gap_px": 145.8545401438567}, {"max_cumulative_progress_drawdown": 0.6250773376644361, "max_drawdown_on_support": 0.0028839111328125, "longest_below_previous_peak_px": 144.35603459443348, "low_advance_16px_fraction": 0.32978723404255317, "longest_low_advance_window_start_run_px": 139.36101609635625, "support_coverage_length_fraction": 0.6697038724373576, "missing_support_total_px": 144.85553644424124, "longest_missing_support_gap_px": 144.85553644424124}, {"max_cumulative_progress_drawdown": 0.6542731523513794, "max_drawdown_on_support": 0.0021680593490600586, "longest_below_previous_peak_px": 145.355038294049, "low_advance_16px_fraction": 0.3321513002364066, "longest_low_advance_window_start_run_px": 140.36001979597165, "support_coverage_length_fraction": 0.6674259681093394, "missing_support_total_px": 145.8545401438567, "longest_missing_support_gap_px": 145.8545401438567}]}}, {"task_id": 25662, "reference_continuity": {"valid": true, "length_px": 428.882118965494, "samples": 859, "spacing_px": 0.49986260951689276, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.4378070083740653, "max_drawdown_on_support": 0.0059792716056108475, "longest_below_previous_peak_px": 53.985161827824356, "low_advance_16px_fraction": 0.12832929782082325, "longest_low_advance_window_start_run_px": 52.98543660879062, "support_coverage_length_fraction": 0.8613053613053613, "missing_support_total_px": 59.48365053251024, "longest_missing_support_gap_px": 59.48365053251024}, {"max_cumulative_progress_drawdown": 0.0019387640058994293, "max_drawdown_on_support": 0.0019387640058994293, "longest_below_previous_peak_px": 7.997801752270284, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.005001429468393326, "max_drawdown_on_support": 0.005001429468393326, "longest_below_previous_peak_px": 8.997526971304069, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.47354427463460524, "max_drawdown_on_support": 0.006988931447267532, "longest_below_previous_peak_px": 106.97059843661509, "low_advance_16px_fraction": 0.2469733656174334, "longest_low_advance_window_start_run_px": 101.97197234144613, "support_coverage_length_fraction": 0.7482517482517482, "missing_support_total_px": 107.97032365564883, "longest_missing_support_gap_px": 107.97032365564883}]}}, {"task_id": 82444, "reference_continuity": {"valid": true, "length_px": 726.3965775287427, "samples": 1454, "spacing_px": 0.4999288214237734, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.002480447292327881, "max_drawdown_on_support": 0.002480447292327881, "longest_below_previous_peak_px": 11.498362892746798, "low_advance_16px_fraction": 0.0028149190710767065, "longest_low_advance_window_start_run_px": 1.4997864642712955, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.29378473987993914, "max_drawdown_on_support": 0.015432387590408325, "longest_below_previous_peak_px": 277.96042471161803, "low_advance_16px_fraction": 0.585503166783955, "longest_low_advance_window_start_run_px": 272.4612076759565, "support_coverage_length_fraction": 0.49002064693737074, "missing_support_total_px": 370.4472566750162, "longest_missing_support_gap_px": 260.9628447832098}, {"max_cumulative_progress_drawdown": 0.42433908517416186, "max_drawdown_on_support": 0.020868957042694092, "longest_below_previous_peak_px": 182.47401981967727, "low_advance_16px_fraction": 0.25052779732582686, "longest_low_advance_window_start_run_px": 175.97494514116818, "support_coverage_length_fraction": 0.7715072264280798, "missing_support_total_px": 165.97636871269276, "longest_missing_support_gap_px": 165.97636871269276}, {"max_cumulative_progress_drawdown": 0.29407960415983325, "max_drawdown_on_support": 0.030109822750091553, "longest_below_previous_peak_px": 498.92896378092587, "low_advance_16px_fraction": 0.6840253342716397, "longest_low_advance_window_start_run_px": 485.93081442390775, "support_coverage_length_fraction": 0.37852718513420497, "missing_support_total_px": 451.4357257456674, "longest_missing_support_gap_px": 451.4357257456674}]}}, {"task_id": 58875, "reference_continuity": {"valid": true, "length_px": 742.2577834150131, "samples": 1486, "spacing_px": 0.49983689118856106, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.0009641647338867188, "max_drawdown_on_support": 0.0009641647338867188, "longest_below_previous_peak_px": 7.997390259016925, "low_advance_16px_fraction": 0.0, "longest_low_advance_window_start_run_px": 0.0, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.8278017952969563, "max_drawdown_on_support": 0.0045118629932403564, "longest_below_previous_peak_px": 104.46591025840928, "low_advance_16px_fraction": 0.18788713007570543, "longest_low_advance_window_start_run_px": 99.96737823771218, "support_coverage_length_fraction": 0.857912457912458, "missing_support_total_px": 105.46558404078638, "longest_missing_support_gap_px": 105.46558404078638}, {"max_cumulative_progress_drawdown": 0.004057109355926514, "max_drawdown_on_support": 0.004057109355926514, "longest_below_previous_peak_px": 9.496900932582662, "low_advance_16px_fraction": 0.0006882312456985547, "longest_low_advance_window_start_run_px": 0.4998368911885791, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.7846611636372813, "max_drawdown_on_support": 0.0037076473236083984, "longest_below_previous_peak_px": 104.96574714959786, "low_advance_16px_fraction": 0.14039917412250516, "longest_low_advance_window_start_run_px": 99.96737823771218, "support_coverage_length_fraction": 0.8585858585858587, "missing_support_total_px": 104.9657471495978, "longest_missing_support_gap_px": 104.9657471495978}]}}, {"task_id": 25781, "reference_continuity": {"valid": true, "length_px": 634.9023960584009, "samples": 1271, "spacing_px": 0.4999231465026779, "support_threshold": 0.1, "low_advance_window_px": 16.0, "low_advance_relative_slope_threshold": 0.1, "candidates": [{"max_cumulative_progress_drawdown": 0.023577567542815814, "max_drawdown_on_support": 0.002621591091156006, "longest_below_previous_peak_px": 398.4387477626343, "low_advance_16px_fraction": 0.6429725363489499, "longest_low_advance_window_start_run_px": 397.9388246161316, "support_coverage_length_fraction": 0.3645669291338582, "missing_support_total_px": 403.4379792276611, "longest_missing_support_gap_px": 403.4379792276611}, {"max_cumulative_progress_drawdown": 0.4041663687136927, "max_drawdown_on_support": 0.0027161836624145508, "longest_below_previous_peak_px": 160.97525317386226, "low_advance_16px_fraction": 0.5153473344103393, "longest_low_advance_window_start_run_px": 159.47548373435427, "support_coverage_length_fraction": 0.4811023622047243, "missing_support_total_px": 329.4493535452648, "longest_missing_support_gap_px": 164.9746383458837}, {"max_cumulative_progress_drawdown": 0.0021004080772399902, "max_drawdown_on_support": 0.0021004080772399902, "longest_below_previous_peak_px": 8.498693490545577, "low_advance_16px_fraction": 0.005654281098546042, "longest_low_advance_window_start_run_px": 3.49946202551871, "support_coverage_length_fraction": 1.0, "missing_support_total_px": 0.0, "longest_missing_support_gap_px": 0.0}, {"max_cumulative_progress_drawdown": 0.7300934016030496, "max_drawdown_on_support": 0.0036711692810058594, "longest_below_previous_peak_px": 160.97525317386226, "low_advance_16px_fraction": 0.4555735056542811, "longest_low_advance_window_start_run_px": 160.47533002735963, "support_coverage_length_fraction": 0.5456692913385826, "missing_support_total_px": 288.45565553204517, "longest_missing_support_gap_px": 165.47456149238644}]}}], "by_shape": {"64x64": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "64x96": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "96x64": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "96x160": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "127x193": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "128x192": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "160x96": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "192x128": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "193x127": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "256x384": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "384x256": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "512x768": {"tasks": 2, "candidate_success_rate": 0.875, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.875, "accepted_candidate_rate": 0.875, "accepted_safe_candidate_rate": 0.875, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "768x512": {"tasks": 2, "candidate_success_rate": 0.375, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.375, "accepted_candidate_rate": 0.375, "accepted_safe_candidate_rate": 0.375, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}}}, "epoch_seconds_this_invocation": 994.7065510769999, "optimizer_steps": 28853}

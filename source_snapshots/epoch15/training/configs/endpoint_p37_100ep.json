@@ -1,0 +1,15 @@
+{
+  "data": "scene_flow_endpoint_package/train_data.npz",
+  "routes": "scene_flow_endpoint_package/p37_routes.npz",
+  "split": "scene_flow_endpoint_package/split.npz",
+  "epochs": 100,
+  "batch_size": 128,
+  "lr": 0.0002,
+  "hidden_dim": 64,
+  "latent_dim": 8,
+  "flow_steps": 100,
+  "noise_scale": 1.0,
+  "latent_scale": 1.0,
+  "seed": 20261003,
+  "map_disjoint_split": true
+}

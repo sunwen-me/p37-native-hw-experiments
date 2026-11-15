@@ -1,0 +1,92 @@
+{
+  "created_local": "2026-11-15T16:40:57.428570+08:00",
+  "status": "prepared",
+  "data_dir": "/home/sw/Documents/ChatGPT/4/local_training/recovered_20261111/data/native_hw_room_grid_v1",
+  "source_epoch": 15,
+  "epochs_each": 1,
+  "train_tasks_each": 100440,
+  "validation_tasks_each": 11160,
+  "seed": 20261112,
+  "fresh_optimizer_each": "AdamW lr=5e-5 wd=1e-4 clip=1",
+  "batch_size": 32,
+  "max_pixels_per_batch": 196608,
+  "batch_plan_epoch_offset": 15,
+  "expected_batch_plan_sha256": "d4c96a901ab8313e3ebc775f6c50c5225eda5835aac51bf43f6e9ca8e607ed02",
+  "arms": {
+    "A_cfm": {
+      "route_increment_weight": 0.0,
+      "route_multispan_weight": 0.0
+    },
+    "B_dense_multispan": {
+      "route_increment_weight": 0.0,
+      "route_multispan_weight": 0.01,
+      "route_multispan_spacing_px": 1.0,
+      "route_multispan_spans_px": [
+        4.0,
+        16.0,
+        64.0
+      ],
+      "route_multispan_max_samples": 4096
+    }
+  },
+  "objective": "mean_spans mean_valid_starts SmoothL1((p(s+d)-p(s))/(d/L)-1), d=min(span,L); CFM endpoint estimate xt+(1-t)v",
+  "sampling_cap": "include complete arc; longer than4095px routes increase spacing, never truncate",
+  "fixed_decoder": "adaptive_fallback/smooth7/512",
+  "candidates": 4,
+  "flow_steps": 100,
+  "evaluation_seed": 20461115,
+  "holdout_used": false,
+  "reserved_unseen_tasks": 140,
+  "failed_validation_cases_excluded_from_train": [
+    11449,
+    25782,
+    52330,
+    67149,
+    65913,
+    44835,
+    209,
+    17831,
+    45901
+  ],
+  "rl": false,
+  "auto_extend_epochs": false,
+  "auto_replace_model": false,
+  "github_upload": false,
+  "inputs_sha256": {
+    "baseline274_report.json": "8dd6ae4cdb7172112db7b752b02ad50c3d7d2b672f391a0892c5d4143149fdd6",
+    "split.npz": "b02793bb4ced075caa0591033db8219ce4f34dba6bfa9ef1407bdc8d83c24cb0",
+    "baseline277_report.json": "2203cb2274949dd56569fb910aeb403343adc2a87428751910f41f88257c6710",
+    "epoch15.pth": "3a542a4e6941dabb05c5cdce75434afb4daf7e74eb0b0e79d38c33054dd33a81",
+    "baseline273_report.json": "b84760d992cca74862a39aaa5bf244309e27b277a908e85330c592c210302c82",
+    "source_report.json": "c0c49929aaefcdc0659d0ff10d715fa2ad592589f5d6c2bb4f5422089605a588",
+    "source_latents.npz": "2918ad6bdc2daaf22d28ce9497dc01fcf7821d3ee4000e964346af41ce18db6c"
+  },
+  "comparison_reports": {
+    "epoch15_adaptive274": "baseline274_report.json",
+    "old_increment277": "baseline277_report.json",
+    "old_cfm273": "baseline273_report.json"
+  },
+  "reference_caches": {
+    "epoch15": {
+      "report": "source_report.json",
+      "fields": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_posttrain_extend15_20261113/evaluation/paired_best_val_epoch15/fields",
+      "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_multispan_ab_20261115/inputs/epoch15.pth"
+    },
+    "old_cfm": {
+      "report": "baseline273_report.json",
+      "fields": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/A_cfm/evaluation/fields",
+      "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/A_cfm/checkpoints/best_p37.pth"
+    },
+    "old_increment": {
+      "report": "baseline277_report.json",
+      "fields": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/evaluation/fields",
+      "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/best_p37.pth"
+    }
+  },
+  "baseline_continuity_sha256": "6d7a862e133fff522bd1e4296280f244dc0405b2ea513a005cf05e4895a1079e",
+  "training_smoke_sha256": "c665c720d5f2c4b55aedd18da663b82211482ad388e93a9fa547e0e480a44bc5",
+  "milestone_report_dir": "/home/sw/Documents/ChatGPT/4/neural-grid-path-planning/reports/p37_multispan_ab_20261115",
+  "collaboration_ledger": "/home/sw/Documents/ChatGPT/4/项目协作记录.md",
+  "evaluation_smoke_report_sha256": "db43f18d1e7f5e7a766f062792223bccbfdb95a6f37cd93f292212bc9154b130",
+  "parent_diagnosis_report_sha256": "d0e765b1e1855bca6c4b2670ed5b5a87f5d0a38a66d8cb7f54efb4854284eec2"
+}

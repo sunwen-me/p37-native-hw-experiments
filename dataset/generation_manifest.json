@@ -1,0 +1,104 @@
+{
+  "generator": "native_room_grid_v1",
+  "seed": 20261112,
+  "map_count": 9300,
+  "pairs_per_map": 12,
+  "task_count": 111600,
+  "horizon": 128,
+  "shapes": [
+    [
+      64,
+      64
+    ],
+    [
+      64,
+      96
+    ],
+    [
+      96,
+      64
+    ],
+    [
+      96,
+      160
+    ],
+    [
+      160,
+      96
+    ],
+    [
+      127,
+      193
+    ],
+    [
+      193,
+      127
+    ],
+    [
+      128,
+      192
+    ],
+    [
+      192,
+      128
+    ],
+    [
+      256,
+      384
+    ],
+    [
+      384,
+      256
+    ],
+    [
+      512,
+      768
+    ],
+    [
+      768,
+      512
+    ]
+  ],
+  "shape_counts": {
+    "64x64": 716,
+    "64x96": 716,
+    "96x64": 716,
+    "96x160": 716,
+    "127x193": 715,
+    "128x192": 715,
+    "160x96": 716,
+    "192x128": 715,
+    "193x127": 715,
+    "256x384": 715,
+    "384x256": 715,
+    "512x768": 715,
+    "768x512": 715
+  },
+  "geometry": {
+    "radius": 1.0,
+    "resolution": 1.0,
+    "safety_margin": 0.5,
+    "units": "grid",
+    "version": "disk_cells_v1"
+  },
+  "route_protocol": "shortest path in the generated connected room-door graph; exact swept-disk checked",
+  "split_protocol": "map-disjoint random 90/10 split; hashes include H/W",
+  "status": "complete",
+  "unique_maps": 9300,
+  "tasks": 111600,
+  "train_maps": 8370,
+  "validation_maps": 930,
+  "train_tasks": 100440,
+  "validation_tasks": 11160,
+  "train_val_hash_overlap": 0,
+  "duplicate_map_retries": 4,
+  "minimum_certified_clearance": 3.5,
+  "maximum_certified_clearance_lower_bound": 3.5,
+  "elapsed_seconds": 337.936,
+  "sha256": {
+    "train_data.npz": "ac49a532d0c996d43a8f943530dc57ed9aea31cbd66751ef579bb53278518804",
+    "p37_routes.npz": "72e459089105ad9a0dd4618c78b04f3bab9d0b9297d9570e29a055c6df1f3674",
+    "split.npz": "7c6d021d3e711c610cab2301219a4dd0faf3fdcaa7a110e7c1673c8fdaffb905",
+    "safety_audit.npz": "a5cd2f36e22f5890b497df5097af60ca23a2eec83d0b856458322455b550b6ca"
+  }
+}

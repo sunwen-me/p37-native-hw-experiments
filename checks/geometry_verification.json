@@ -1,0 +1,17 @@
+{
+  "finished_local": "2026-11-16T00:37:23.419152+08:00",
+  "arms": {
+    "A_cfm": {
+      "tasks": 286,
+      "finite_exact_endpoint_candidates": 1144,
+      "geometry_recomputed": true,
+      "weights_finite": true
+    },
+    "B_dense_multispan": {
+      "tasks": 286,
+      "finite_exact_endpoint_candidates": 1144,
+      "geometry_recomputed": true,
+      "weights_finite": true
+    }
+  }
+}

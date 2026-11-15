@@ -1,0 +1,753 @@
+Loaded dataset: 111600 samples
+Map shapes: ((64, 64), (64, 96), (96, 64), (96, 160), (127, 193), (128, 192), (160, 96), (192, 128), (193, 127), (256, 384), (384, 256), (512, 768), (768, 512))
+Horizon: 128
+Materialized unique maps: 128/9300
+Materialized unique maps: 256/9300
+Materialized unique maps: 384/9300
+Materialized unique maps: 512/9300
+Materialized unique maps: 640/9300
+Materialized unique maps: 768/9300
+Materialized unique maps: 896/9300
+Materialized unique maps: 1024/9300
+Materialized unique maps: 1152/9300
+Materialized unique maps: 1280/9300
+Materialized unique maps: 1408/9300
+Materialized unique maps: 1536/9300
+Materialized unique maps: 1664/9300
+Materialized unique maps: 1792/9300
+Materialized unique maps: 1920/9300
+Materialized unique maps: 2048/9300
+Materialized unique maps: 2176/9300
+Materialized unique maps: 2304/9300
+Materialized unique maps: 2432/9300
+Materialized unique maps: 2560/9300
+Materialized unique maps: 2688/9300
+Materialized unique maps: 2816/9300
+Materialized unique maps: 2944/9300
+Materialized unique maps: 3072/9300
+Materialized unique maps: 3200/9300
+Materialized unique maps: 3328/9300
+Materialized unique maps: 3456/9300
+Materialized unique maps: 3584/9300
+Materialized unique maps: 3712/9300
+Materialized unique maps: 3840/9300
+Materialized unique maps: 3968/9300
+Materialized unique maps: 4096/9300
+Materialized unique maps: 4224/9300
+Materialized unique maps: 4352/9300
+Materialized unique maps: 4480/9300
+Materialized unique maps: 4608/9300
+Materialized unique maps: 4736/9300
+Materialized unique maps: 4864/9300
+Materialized unique maps: 4992/9300
+Materialized unique maps: 5120/9300
+Materialized unique maps: 5248/9300
+Materialized unique maps: 5376/9300
+Materialized unique maps: 5504/9300
+Materialized unique maps: 5632/9300
+Materialized unique maps: 5760/9300
+Materialized unique maps: 5888/9300
+Materialized unique maps: 6016/9300
+Materialized unique maps: 6144/9300
+Materialized unique maps: 6272/9300
+Materialized unique maps: 6400/9300
+Materialized unique maps: 6528/9300
+Materialized unique maps: 6656/9300
+Materialized unique maps: 6784/9300
+Materialized unique maps: 6912/9300
+Materialized unique maps: 7040/9300
+Materialized unique maps: 7168/9300
+Materialized unique maps: 7296/9300
+Materialized unique maps: 7424/9300
+Materialized unique maps: 7552/9300
+Materialized unique maps: 7680/9300
+Materialized unique maps: 7808/9300
+Materialized unique maps: 7936/9300
+Materialized unique maps: 8064/9300
+Materialized unique maps: 8192/9300
+Materialized unique maps: 8320/9300
+Materialized unique maps: 8448/9300
+Materialized unique maps: 8576/9300
+Materialized unique maps: 8704/9300
+Materialized unique maps: 8832/9300
+Materialized unique maps: 8960/9300
+Materialized unique maps: 9088/9300
+Materialized unique maps: 9216/9300
+Materialized unique maps: 9300/9300
+{"stage": "epoch_start", "epoch": 1, "train_batches": 28853, "train_tasks": 100440, "validation_tasks": 11160, "resume_completed_batches": 0, "lr": 5e-05, "objective": "continuous segments + support_balanced CFM + paired route progress increments", "route_increment_weight": 0.1}
+{"stage": "train_batch", "batch": 50, "batches": 50, "samples": 173, "mean_loss": 0.014844873379054614}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 50, "batches": 28853, "samples": 173, "mean_loss": 0.014844873379054614, "optimizer_steps": 50, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 151, "mean_loss": 0.024079528965660377}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 330, "mean_loss": 0.01984193320421389}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 483, "mean_loss": 0.01682015902128487}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 671, "mean_loss": 0.014152770154816604}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 875, "mean_loss": 0.012745757134232137}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1088, "mean_loss": 0.013191725282655064}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1273, "mean_loss": 0.013102603085135686}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1476, "mean_loss": 0.014480555401818428}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1619, "mean_loss": 0.014109243005252408}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1741, "mean_loss": 0.01510703126962218}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1956, "mean_loss": 0.016364907403940768}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2203, "mean_loss": 0.015796912274853112}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2399, "mean_loss": 0.016210504811462488}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2662, "mean_loss": 0.016286407237621283}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2849, "mean_loss": 0.01592117283866267}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2997, "mean_loss": 0.015634688901757555}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3168, "mean_loss": 0.015418793182529632}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3319, "mean_loss": 0.015433211464552154}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3453, "mean_loss": 0.01515010664086598}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3591, "mean_loss": 0.01486379815720305}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 1050, "batches": 28853, "samples": 3764, "mean_loss": 0.014862928341416738, "optimizer_steps": 1050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 155, "mean_loss": 0.011120953600132658}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 341, "mean_loss": 0.00914116448905767}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 512, "mean_loss": 0.009467479769227793}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.008660325781751249}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 800, "mean_loss": 0.012055712244618917}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 971, "mean_loss": 0.011986912279840594}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1121, "mean_loss": 0.01136061657075982}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1226, "mean_loss": 0.012002577009017551}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1393, "mean_loss": 0.012913135846535898}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1586, "mean_loss": 0.013044380844766825}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1749, "mean_loss": 0.012577676001016056}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.012523590966170917}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2149, "mean_loss": 0.013062243673147823}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2335, "mean_loss": 0.012751667146377536}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2543, "mean_loss": 0.012429677283887964}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2679, "mean_loss": 0.012136228087703382}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2835, "mean_loss": 0.011997632489406636}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2939, "mean_loss": 0.011771781057873238}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3111, "mean_loss": 0.011544512023385021}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3281, "mean_loss": 0.012612891149432084}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 2050, "batches": 28853, "samples": 7045, "mean_loss": 0.013815040189975765, "optimizer_steps": 2050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 150, "mean_loss": 0.0077365451585501436}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 289, "mean_loss": 0.011122664417765365}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 444, "mean_loss": 0.010545099440433487}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.010784161674911993}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 770, "mean_loss": 0.010533096028987754}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 876, "mean_loss": 0.010300030201045184}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1087, "mean_loss": 0.012370277023205933}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1207, "mean_loss": 0.012412796687418109}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1368, "mean_loss": 0.01358628874710674}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1496, "mean_loss": 0.013557644629179261}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1684, "mean_loss": 0.013084848486871465}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1846, "mean_loss": 0.012933983931856236}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2029, "mean_loss": 0.013107587588641622}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2214, "mean_loss": 0.01260159114546495}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2448, "mean_loss": 0.01256072368885404}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2586, "mean_loss": 0.012353435814769958}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2806, "mean_loss": 0.012167145590822617}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2947, "mean_loss": 0.012157962645660336}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3170, "mean_loss": 0.012103662756675624}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3324, "mean_loss": 0.012775482147954187}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 3050, "batches": 28853, "samples": 10369, "mean_loss": 0.013481788098966052, "optimizer_steps": 3050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 146, "mean_loss": 0.01579998449138557}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 364, "mean_loss": 0.02183301806140302}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 590, "mean_loss": 0.020801484737134838}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 767, "mean_loss": 0.01986189181549108}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 1056, "mean_loss": 0.017840360840637004}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1274, "mean_loss": 0.0164971305598363}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1467, "mean_loss": 0.01575421743207924}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1658, "mean_loss": 0.016025482352392744}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1842, "mean_loss": 0.01665205082695084}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 2040, "mean_loss": 0.0176651428323513}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2224, "mean_loss": 0.017451123873830486}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2350, "mean_loss": 0.017006432785791285}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2550, "mean_loss": 0.016971046564753588}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2670, "mean_loss": 0.016608190099440152}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2847, "mean_loss": 0.01617860045733992}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3002, "mean_loss": 0.01615185725643361}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3178, "mean_loss": 0.01630858225467198}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3403, "mean_loss": 0.015751684381884623}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3548, "mean_loss": 0.015648443909817907}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3702, "mean_loss": 0.015681724897638638}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 4050, "batches": 28853, "samples": 14071, "mean_loss": 0.014060578947426424, "optimizer_steps": 4050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 177, "mean_loss": 0.008905979316013387}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 341, "mean_loss": 0.012818857765609065}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 489, "mean_loss": 0.013159663793069057}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 629, "mean_loss": 0.013246674667888385}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 827, "mean_loss": 0.01599326809843441}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1070, "mean_loss": 0.01566526185053131}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1232, "mean_loss": 0.01648541919835284}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1380, "mean_loss": 0.01725599179904827}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1572, "mean_loss": 0.018255283203688105}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1746, "mean_loss": 0.01745908111328513}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1909, "mean_loss": 0.01677776811958616}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2088, "mean_loss": 0.01672535681068073}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2272, "mean_loss": 0.01675766996264992}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2488, "mean_loss": 0.01604642797315941}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2611, "mean_loss": 0.015700959926034166}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2777, "mean_loss": 0.01597325913459673}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2936, "mean_loss": 0.015681858927435597}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3134, "mean_loss": 0.01562808422373528}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3303, "mean_loss": 0.015766776836940485}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3536, "mean_loss": 0.015603490237489541}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 5050, "batches": 28853, "samples": 17607, "mean_loss": 0.014370440611631752, "optimizer_steps": 5050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 142, "mean_loss": 0.01323543501440698}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 282, "mean_loss": 0.016363910282549205}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 441, "mean_loss": 0.016316769300651675}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 581, "mean_loss": 0.014289594775950615}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 758, "mean_loss": 0.016685190569734727}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 925, "mean_loss": 0.015036970664293983}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1115, "mean_loss": 0.014435816397827804}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1265, "mean_loss": 0.015050882025135924}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1382, "mean_loss": 0.014303833971931511}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1534, "mean_loss": 0.014077047398951357}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1686, "mean_loss": 0.014349567243558148}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.014061094207645094}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2052, "mean_loss": 0.014912848888166144}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2226, "mean_loss": 0.014323891799213735}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2357, "mean_loss": 0.014386155536328353}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2487, "mean_loss": 0.013890987679483628}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2684, "mean_loss": 0.014366044346957943}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2884, "mean_loss": 0.014096475507203107}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3066, "mean_loss": 0.014379243549966149}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3276, "mean_loss": 0.014407075034297823}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 6050, "batches": 28853, "samples": 20883, "mean_loss": 0.01437618760050567, "optimizer_steps": 6050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 210, "mean_loss": 0.010564499659951598}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 426, "mean_loss": 0.009088018923580314}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 568, "mean_loss": 0.009115245391231057}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 682, "mean_loss": 0.00939141461967772}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 841, "mean_loss": 0.011487673893050422}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1049, "mean_loss": 0.011746547551664948}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1160, "mean_loss": 0.011061314381217456}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1318, "mean_loss": 0.01060843888476946}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1576, "mean_loss": 0.010126426077680072}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1743, "mean_loss": 0.010558518580958777}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1946, "mean_loss": 0.010169187671110563}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2063, "mean_loss": 0.010099702534289292}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2162, "mean_loss": 0.010413543557630599}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2304, "mean_loss": 0.010257319919572992}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2515, "mean_loss": 0.010908995729789627}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2781, "mean_loss": 0.011063800654970164}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3062, "mean_loss": 0.011872284224845108}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3343, "mean_loss": 0.011632492778076996}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3471, "mean_loss": 0.011452687863152913}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3575, "mean_loss": 0.011488001611526613}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 7050, "batches": 28853, "samples": 24458, "mean_loss": 0.013954024508241375, "optimizer_steps": 7050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 166, "mean_loss": 0.006025140337135464}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 317, "mean_loss": 0.005958166783925275}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 426, "mean_loss": 0.008357988224756148}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 534, "mean_loss": 0.008060286623383924}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 676, "mean_loss": 0.0077974758293140765}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 840, "mean_loss": 0.008073706438049806}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1014, "mean_loss": 0.008306685002764993}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1174, "mean_loss": 0.0083049887852161}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1249, "mean_loss": 0.008435741870375492}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1436, "mean_loss": 0.008846933088212827}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1568, "mean_loss": 0.009234666021832393}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1832, "mean_loss": 0.010593538463136536}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 1968, "mean_loss": 0.01047087200631944}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2139, "mean_loss": 0.011639028404949929}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2349, "mean_loss": 0.011419901131898507}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2500, "mean_loss": 0.011421993765281514}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2729, "mean_loss": 0.012574480179002452}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2878, "mean_loss": 0.012255954430812337}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3026, "mean_loss": 0.012058330379870905}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3173, "mean_loss": 0.012659297621607302}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 8050, "batches": 28853, "samples": 27631, "mean_loss": 0.013805344821972694, "optimizer_steps": 8050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 249, "mean_loss": 0.011370763217704931}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 373, "mean_loss": 0.010276448800872721}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 527, "mean_loss": 0.009667485777864788}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 660, "mean_loss": 0.009407735654773812}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 813, "mean_loss": 0.009047279832598286}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 987, "mean_loss": 0.008681949528817394}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1162, "mean_loss": 0.008771532459329595}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1340, "mean_loss": 0.00872157825845113}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1481, "mean_loss": 0.00966510316655719}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1693, "mean_loss": 0.009858359819403544}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1799, "mean_loss": 0.01002511541654727}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1930, "mean_loss": 0.009923457779373897}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2023, "mean_loss": 0.009972199944142128}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2214, "mean_loss": 0.01034827261151285}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2399, "mean_loss": 0.010513410810779092}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2541, "mean_loss": 0.010377581527534343}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2716, "mean_loss": 0.010683008095020475}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2931, "mean_loss": 0.010669222666685928}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3109, "mean_loss": 0.010543324718041836}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3267, "mean_loss": 0.010813160100595454}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 9050, "batches": 28853, "samples": 30898, "mean_loss": 0.013488966173363095, "optimizer_steps": 9050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 205, "mean_loss": 0.02081109066550597}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 369, "mean_loss": 0.014734644818543722}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 590, "mean_loss": 0.01438656179115997}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 792, "mean_loss": 0.018621239368598014}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 1023, "mean_loss": 0.018339455763391518}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1262, "mean_loss": 0.017055407728078863}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1374, "mean_loss": 0.016504187413862077}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1536, "mean_loss": 0.016033630159199674}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1756, "mean_loss": 0.015936264742586383}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1944, "mean_loss": 0.015398501706215718}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2101, "mean_loss": 0.014827110662270446}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2280, "mean_loss": 0.014760683772303246}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2460, "mean_loss": 0.015540625258420813}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2643, "mean_loss": 0.016007209443039714}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2777, "mean_loss": 0.015752909967679495}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2942, "mean_loss": 0.015302725843912691}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3168, "mean_loss": 0.01547894966169031}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3398, "mean_loss": 0.015271637900916091}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3562, "mean_loss": 0.015018908458603425}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3703, "mean_loss": 0.015031330249856532}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 10050, "batches": 28853, "samples": 34601, "mean_loss": 0.013654030020513616, "optimizer_steps": 10050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 298, "mean_loss": 0.027719445264860736}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 431, "mean_loss": 0.021598365462521252}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 585, "mean_loss": 0.020423200883520527}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 758, "mean_loss": 0.017762844364765766}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 981, "mean_loss": 0.017835975288547325}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1192, "mean_loss": 0.018863388602645293}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1354, "mean_loss": 0.01867758401513424}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1601, "mean_loss": 0.017105109473736346}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1729, "mean_loss": 0.0180834021459416}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1907, "mean_loss": 0.01720624835990803}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2049, "mean_loss": 0.0175075208339972}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2226, "mean_loss": 0.017630935063418705}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2376, "mean_loss": 0.01741438494207963}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2537, "mean_loss": 0.017100470608256677}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2778, "mean_loss": 0.01655855137637573}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2950, "mean_loss": 0.016049769859626827}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3178, "mean_loss": 0.01634829408658992}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3320, "mean_loss": 0.01606546872353647}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3523, "mean_loss": 0.01574995221668342}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3666, "mean_loss": 0.015626156006336864}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 11050, "batches": 28853, "samples": 38267, "mean_loss": 0.013842960792824694, "optimizer_steps": 11050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 125, "mean_loss": 0.006729752898216247}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 270, "mean_loss": 0.008210215788696788}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 418, "mean_loss": 0.008412356953371681}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 527, "mean_loss": 0.008487681906950435}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 738, "mean_loss": 0.012660649530245698}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 995, "mean_loss": 0.012366399937016824}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1150, "mean_loss": 0.012512036688757413}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1260, "mean_loss": 0.012146481715506755}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1455, "mean_loss": 0.012784736159159978}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1607, "mean_loss": 0.012363921243814182}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1745, "mean_loss": 0.011983021403253238}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1894, "mean_loss": 0.011615234954864596}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2128, "mean_loss": 0.01147777596997912}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2314, "mean_loss": 0.011896247773713174}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2460, "mean_loss": 0.01155864864645045}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2700, "mean_loss": 0.011236155746586587}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2881, "mean_loss": 0.011079616930985681}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3058, "mean_loss": 0.011229395580818655}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3209, "mean_loss": 0.011091830388019015}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3373, "mean_loss": 0.01138856195151464}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 12050, "batches": 28853, "samples": 41640, "mean_loss": 0.013644145055751235, "optimizer_steps": 12050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 172, "mean_loss": 0.020165177967079895}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 314, "mean_loss": 0.02142678596306248}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 506, "mean_loss": 0.01618921596684821}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 678, "mean_loss": 0.014646721806186237}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 801, "mean_loss": 0.01580922991198984}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 978, "mean_loss": 0.01527744695600903}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1124, "mean_loss": 0.014980410511756243}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1277, "mean_loss": 0.014942136919709359}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1454, "mean_loss": 0.015714509476938938}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1575, "mean_loss": 0.015075535806014187}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1700, "mean_loss": 0.01491489317131174}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1909, "mean_loss": 0.01550589847402094}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2045, "mean_loss": 0.014985625128931205}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2210, "mean_loss": 0.015168266232142317}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2396, "mean_loss": 0.015686993060727995}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2578, "mean_loss": 0.016426869635011415}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2733, "mean_loss": 0.016132216954130463}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2912, "mean_loss": 0.01608208257515958}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3129, "mean_loss": 0.016247177870242303}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3431, "mean_loss": 0.01645894759037122}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 13050, "batches": 28853, "samples": 45071, "mean_loss": 0.013858420032926828, "optimizer_steps": 13050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 243, "mean_loss": 0.008039611278182287}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 411, "mean_loss": 0.008841586740542466}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 561, "mean_loss": 0.009347038914627145}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 754, "mean_loss": 0.010525168823072098}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 882, "mean_loss": 0.01114162389870602}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1067, "mean_loss": 0.01185183764089269}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1262, "mean_loss": 0.014438130795677443}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1491, "mean_loss": 0.014533657755041876}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1701, "mean_loss": 0.01420442456838624}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1841, "mean_loss": 0.015104272995017154}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2067, "mean_loss": 0.014322376496363098}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2213, "mean_loss": 0.013799789254393697}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2413, "mean_loss": 0.014405231163246495}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2597, "mean_loss": 0.014554334618653249}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2724, "mean_loss": 0.014368371243997875}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2827, "mean_loss": 0.014070443820480427}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3040, "mean_loss": 0.014886170432758885}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3206, "mean_loss": 0.014468688096048477}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3353, "mean_loss": 0.014310287597937503}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3553, "mean_loss": 0.014119176006227965}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 14050, "batches": 28853, "samples": 48624, "mean_loss": 0.013877473709570851, "optimizer_steps": 14050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 176, "mean_loss": 0.020870083397312555}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 372, "mean_loss": 0.017797081242753594}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 563, "mean_loss": 0.01756916037631646}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 715, "mean_loss": 0.020358976954757073}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 973, "mean_loss": 0.019812235249520374}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1174, "mean_loss": 0.018593970099658415}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1343, "mean_loss": 0.01858328671563189}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1514, "mean_loss": 0.01794926685824267}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1729, "mean_loss": 0.017166791908079924}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1943, "mean_loss": 0.016480351839038652}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2114, "mean_loss": 0.015984326738480024}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2253, "mean_loss": 0.015750453749748466}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2412, "mean_loss": 0.015263930360912493}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2599, "mean_loss": 0.015051812743407965}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2794, "mean_loss": 0.014582469570733815}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2949, "mean_loss": 0.014284621379864028}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3179, "mean_loss": 0.013844434796434367}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3343, "mean_loss": 0.014222122419590975}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3497, "mean_loss": 0.014531419745694088}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3661, "mean_loss": 0.01428977500287853}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 15050, "batches": 28853, "samples": 52285, "mean_loss": 0.013906343080036557, "optimizer_steps": 15050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 150, "mean_loss": 0.01579214173213889}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 289, "mean_loss": 0.013196402503689912}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 488, "mean_loss": 0.012687150760864855}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 609, "mean_loss": 0.011828880740462669}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 789, "mean_loss": 0.011434859613308397}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1013, "mean_loss": 0.011466337569923988}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1134, "mean_loss": 0.011194924746124268}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1332, "mean_loss": 0.01077003894473759}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1564, "mean_loss": 0.010343765997288562}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1834, "mean_loss": 0.010294902622735283}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2011, "mean_loss": 0.01172581764504458}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2216, "mean_loss": 0.01187868359751263}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2371, "mean_loss": 0.011681259370496154}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2574, "mean_loss": 0.01149458818597337}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2757, "mean_loss": 0.011340291393401576}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2979, "mean_loss": 0.01189170333785988}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3121, "mean_loss": 0.011772622536281193}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3235, "mean_loss": 0.0119032098798706}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3396, "mean_loss": 0.011857308994300469}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3533, "mean_loss": 0.012334558965464036}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 16050, "batches": 28853, "samples": 55818, "mean_loss": 0.013806857013234006, "optimizer_steps": 16050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 223, "mean_loss": 0.008822032103248174}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 372, "mean_loss": 0.010867826934460732}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 520, "mean_loss": 0.010550517834221514}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 724, "mean_loss": 0.01360400346572799}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 887, "mean_loss": 0.012874394780961458}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1036, "mean_loss": 0.012554473210504624}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1169, "mean_loss": 0.011894734857971975}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1303, "mean_loss": 0.011704955518414379}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1447, "mean_loss": 0.01121437206041163}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1651, "mean_loss": 0.010951325897765382}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1821, "mean_loss": 0.010666163137156}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1923, "mean_loss": 0.010354883648703109}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2082, "mean_loss": 0.010181903841403848}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2258, "mean_loss": 0.011485420658267157}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2501, "mean_loss": 0.01145260204344702}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2647, "mean_loss": 0.011187427285395445}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2822, "mean_loss": 0.011288162981474167}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2985, "mean_loss": 0.011006403187370953}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3147, "mean_loss": 0.010784438340957233}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3291, "mean_loss": 0.010867804914910434}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 17050, "batches": 28853, "samples": 59109, "mean_loss": 0.013643219995934054, "optimizer_steps": 17050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 130, "mean_loss": 0.023948832063111835}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 310, "mean_loss": 0.020898185060885283}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 452, "mean_loss": 0.016770103021702044}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 624, "mean_loss": 0.016630069936628643}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 865, "mean_loss": 0.014245953787430432}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 983, "mean_loss": 0.013539413471151018}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1155, "mean_loss": 0.014520160353125689}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1362, "mean_loss": 0.014768207289409111}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1471, "mean_loss": 0.01412389578288554}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1635, "mean_loss": 0.013416773940875147}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1825, "mean_loss": 0.013060607745962804}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1960, "mean_loss": 0.012586095394466871}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2133, "mean_loss": 0.01233505982562002}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2275, "mean_loss": 0.012859810771789033}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2407, "mean_loss": 0.015495192071022082}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2533, "mean_loss": 0.015224241993441131}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2791, "mean_loss": 0.01581214424870062}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2952, "mean_loss": 0.01534307732285148}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3200, "mean_loss": 0.015097356695732742}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3384, "mean_loss": 0.014691368135789864}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 18050, "batches": 28853, "samples": 62493, "mean_loss": 0.013699977285634853, "optimizer_steps": 18050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 164, "mean_loss": 0.008477379170405428}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 304, "mean_loss": 0.008396949043105307}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 499, "mean_loss": 0.01043128714484269}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 706, "mean_loss": 0.01003192824564832}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 854, "mean_loss": 0.009544621737411059}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1015, "mean_loss": 0.011298246326709506}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1143, "mean_loss": 0.011085200752416823}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1260, "mean_loss": 0.010552541861802132}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1407, "mean_loss": 0.011609756528842047}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1531, "mean_loss": 0.011506838079740839}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1738, "mean_loss": 0.012048865827022847}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1946, "mean_loss": 0.011786486533360856}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2092, "mean_loss": 0.012001412314871222}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2257, "mean_loss": 0.012514431773130746}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2421, "mean_loss": 0.012651241457681043}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2586, "mean_loss": 0.013288501758947363}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2703, "mean_loss": 0.01380328576987016}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2835, "mean_loss": 0.014002406106509492}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3000, "mean_loss": 0.01402584566451454}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3140, "mean_loss": 0.014220323738090361}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 19050, "batches": 28853, "samples": 65633, "mean_loss": 0.01372487158973051, "optimizer_steps": 19050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 159, "mean_loss": 0.007651061858577689}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 403, "mean_loss": 0.010150033395353787}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 524, "mean_loss": 0.017793586072183166}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 654, "mean_loss": 0.016029955455940787}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 762, "mean_loss": 0.01467261517654464}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 889, "mean_loss": 0.01406504877298731}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1078, "mean_loss": 0.014014187206601436}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1258, "mean_loss": 0.017667766992115256}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1456, "mean_loss": 0.01784623387524894}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1660, "mean_loss": 0.0184856635822735}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1794, "mean_loss": 0.018908530534382642}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 1911, "mean_loss": 0.018126889350721716}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2103, "mean_loss": 0.01784770843505158}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2304, "mean_loss": 0.017298949743740702}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2471, "mean_loss": 0.01649025318273865}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2641, "mean_loss": 0.01690679185319197}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2836, "mean_loss": 0.016795780804730383}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 2997, "mean_loss": 0.016669599794306315}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3167, "mean_loss": 0.01638665131902258}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3392, "mean_loss": 0.0157806482470132}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 20050, "batches": 28853, "samples": 69025, "mean_loss": 0.013825895775482093, "optimizer_steps": 20050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 188, "mean_loss": 0.013393035955464547}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 394, "mean_loss": 0.013757970476012469}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 558, "mean_loss": 0.016170717722203878}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 714, "mean_loss": 0.015740429360193854}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 990, "mean_loss": 0.014625378156838129}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1153, "mean_loss": 0.01602900055661581}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1355, "mean_loss": 0.018403499570891702}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1552, "mean_loss": 0.01898304768485442}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1706, "mean_loss": 0.018980248549386448}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1868, "mean_loss": 0.017871289944268235}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2059, "mean_loss": 0.017294654934321026}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2265, "mean_loss": 0.01673246779120332}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2480, "mean_loss": 0.018182631187430104}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2667, "mean_loss": 0.01855182347517673}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2825, "mean_loss": 0.01823797927950962}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3028, "mean_loss": 0.01805214195923918}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3279, "mean_loss": 0.018220522933897768}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3481, "mean_loss": 0.0184644810049812}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3666, "mean_loss": 0.018002953339667623}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3833, "mean_loss": 0.017902900485789363}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 21050, "batches": 28853, "samples": 72858, "mean_loss": 0.01404038367049167, "optimizer_steps": 21050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 188, "mean_loss": 0.006366290942210942}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 339, "mean_loss": 0.006523543753479896}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 513, "mean_loss": 0.008248908775876735}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 700, "mean_loss": 0.01091759871442004}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 800, "mean_loss": 0.011155315257637995}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 948, "mean_loss": 0.010685713822218562}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1116, "mean_loss": 0.010536825379392626}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1347, "mean_loss": 0.010870070561317903}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1501, "mean_loss": 0.011296649065754717}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1684, "mean_loss": 0.011932408280414584}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1849, "mean_loss": 0.01194835063771447}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2068, "mean_loss": 0.013218516860338743}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2225, "mean_loss": 0.012723246521494362}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2458, "mean_loss": 0.012285975946330952}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2564, "mean_loss": 0.012117619408376648}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2860, "mean_loss": 0.012021101468488561}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3017, "mean_loss": 0.012169740355606315}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3213, "mean_loss": 0.012098852715968339}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3388, "mean_loss": 0.012244583988342866}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3552, "mean_loss": 0.01201501014647137}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 22050, "batches": 28853, "samples": 76410, "mean_loss": 0.013946232031212516, "optimizer_steps": 22050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 192, "mean_loss": 0.008048611469348543}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 380, "mean_loss": 0.01822391756761231}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 636, "mean_loss": 0.014954761173480935}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 843, "mean_loss": 0.014463335575319359}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 998, "mean_loss": 0.01705785549291501}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1160, "mean_loss": 0.0179703722923697}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1339, "mean_loss": 0.017002274757936246}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1540, "mean_loss": 0.01734713837126415}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1713, "mean_loss": 0.01677175713618766}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1901, "mean_loss": 0.016648591182016812}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2022, "mean_loss": 0.016243274067494002}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2201, "mean_loss": 0.01565561058635069}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2423, "mean_loss": 0.015730448172937384}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2562, "mean_loss": 0.015135532436748075}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2724, "mean_loss": 0.01464344709867163}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2864, "mean_loss": 0.014296884870398256}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3035, "mean_loss": 0.014575916524444088}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3204, "mean_loss": 0.014407366935757294}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3351, "mean_loss": 0.01465466894095853}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3524, "mean_loss": 0.014578141337113928}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 23050, "batches": 28853, "samples": 79934, "mean_loss": 0.013974090619472789, "optimizer_steps": 23050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 167, "mean_loss": 0.023703894071130382}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 320, "mean_loss": 0.01874655930478184}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 516, "mean_loss": 0.016888147038849822}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 700, "mean_loss": 0.01603296109425303}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 830, "mean_loss": 0.015058522797904976}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1038, "mean_loss": 0.014503166442057333}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1222, "mean_loss": 0.01463902407462416}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1462, "mean_loss": 0.014393921032053942}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1711, "mean_loss": 0.015295970708591464}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1911, "mean_loss": 0.015331780788855902}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2105, "mean_loss": 0.014964238868781858}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2289, "mean_loss": 0.014835574273098352}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2452, "mean_loss": 0.0143286085734913}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2591, "mean_loss": 0.014263680784511788}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2764, "mean_loss": 0.014332332242926004}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2914, "mean_loss": 0.014207523135709185}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3039, "mean_loss": 0.013878256126836968}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3192, "mean_loss": 0.013655233611388483}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3357, "mean_loss": 0.013596314395980264}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3561, "mean_loss": 0.013680259813440164}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 24050, "batches": 28853, "samples": 83495, "mean_loss": 0.013961558952902547, "optimizer_steps": 24050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 165, "mean_loss": 0.009660069251461238}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 332, "mean_loss": 0.009201919526725739}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 609, "mean_loss": 0.013727604012595327}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 796, "mean_loss": 0.014600203272502813}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 975, "mean_loss": 0.014266745121791385}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1189, "mean_loss": 0.014900578648346196}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1339, "mean_loss": 0.014622403117216}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1546, "mean_loss": 0.014936868441568262}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1717, "mean_loss": 0.014581740898569426}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1958, "mean_loss": 0.014651375302124056}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2128, "mean_loss": 0.015399490398966665}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2416, "mean_loss": 0.016037910373820553}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2579, "mean_loss": 0.015586614263716676}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2781, "mean_loss": 0.015489564184258507}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2973, "mean_loss": 0.015888244297746674}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 3154, "mean_loss": 0.015657389280009783}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3351, "mean_loss": 0.016062150549837527}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3561, "mean_loss": 0.015623251504699703}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3725, "mean_loss": 0.015327772821812271}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3925, "mean_loss": 0.015224715207650024}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 25050, "batches": 28853, "samples": 87420, "mean_loss": 0.014018272385754113, "optimizer_steps": 25050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 219, "mean_loss": 0.011102004794267827}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 374, "mean_loss": 0.012795142722340988}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 513, "mean_loss": 0.011358037135304182}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 659, "mean_loss": 0.012977930400075393}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 899, "mean_loss": 0.012736083472456299}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1109, "mean_loss": 0.011937975793836741}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1309, "mean_loss": 0.011853531646528734}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1500, "mean_loss": 0.012069435517769306}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1706, "mean_loss": 0.01238903239638799}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1882, "mean_loss": 0.012013818393003663}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 2083, "mean_loss": 0.012098742172679096}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2247, "mean_loss": 0.011829394327145457}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2385, "mean_loss": 0.011763749442813016}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2521, "mean_loss": 0.012630712916337187}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2695, "mean_loss": 0.012391993004685279}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2879, "mean_loss": 0.012026810321630797}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 3088, "mean_loss": 0.012013661404587558}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3222, "mean_loss": 0.011726529115366141}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3368, "mean_loss": 0.01158711230654005}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3544, "mean_loss": 0.011367882123871593}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 26050, "batches": 28853, "samples": 90964, "mean_loss": 0.01391501194109346, "optimizer_steps": 26050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 109, "mean_loss": 0.006559820587259777}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 275, "mean_loss": 0.007796246958261525}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 530, "mean_loss": 0.019906790199896038}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 688, "mean_loss": 0.01710983504702643}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 850, "mean_loss": 0.01546274028807495}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1065, "mean_loss": 0.01591489750475452}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1234, "mean_loss": 0.01506663260856346}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1348, "mean_loss": 0.014531133781373431}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1503, "mean_loss": 0.014362161372023301}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1697, "mean_loss": 0.01437503754745913}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1840, "mean_loss": 0.014517832346008737}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2032, "mean_loss": 0.01510175188555218}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2171, "mean_loss": 0.014684953968640578}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2318, "mean_loss": 0.014597631894558068}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2572, "mean_loss": 0.015361379786336782}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2736, "mean_loss": 0.015895477604567398}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2846, "mean_loss": 0.015456383948855578}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3062, "mean_loss": 0.01538699509120567}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3194, "mean_loss": 0.015038967109988744}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3425, "mean_loss": 0.015406450200435046}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 27050, "batches": 28853, "samples": 94389, "mean_loss": 0.013969130281559456, "optimizer_steps": 27050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 1000, "samples": 174, "mean_loss": 0.009998358276287287}
+{"stage": "train_batch", "batch": 100, "batches": 1000, "samples": 357, "mean_loss": 0.01647673921786113}
+{"stage": "train_batch", "batch": 150, "batches": 1000, "samples": 515, "mean_loss": 0.014440920204150227}
+{"stage": "train_batch", "batch": 200, "batches": 1000, "samples": 657, "mean_loss": 0.01434077790093465}
+{"stage": "train_batch", "batch": 250, "batches": 1000, "samples": 864, "mean_loss": 0.013116736962897616}
+{"stage": "train_batch", "batch": 300, "batches": 1000, "samples": 1025, "mean_loss": 0.012160801064427488}
+{"stage": "train_batch", "batch": 350, "batches": 1000, "samples": 1259, "mean_loss": 0.012571782533636404}
+{"stage": "train_batch", "batch": 400, "batches": 1000, "samples": 1395, "mean_loss": 0.012715740901614977}
+{"stage": "train_batch", "batch": 450, "batches": 1000, "samples": 1557, "mean_loss": 0.01237173504423405}
+{"stage": "train_batch", "batch": 500, "batches": 1000, "samples": 1717, "mean_loss": 0.013239409870820106}
+{"stage": "train_batch", "batch": 550, "batches": 1000, "samples": 1873, "mean_loss": 0.013395973027013024}
+{"stage": "train_batch", "batch": 600, "batches": 1000, "samples": 2114, "mean_loss": 0.013552307175267963}
+{"stage": "train_batch", "batch": 650, "batches": 1000, "samples": 2272, "mean_loss": 0.013340911061085292}
+{"stage": "train_batch", "batch": 700, "batches": 1000, "samples": 2390, "mean_loss": 0.01368888982856124}
+{"stage": "train_batch", "batch": 750, "batches": 1000, "samples": 2597, "mean_loss": 0.013363234295913556}
+{"stage": "train_batch", "batch": 800, "batches": 1000, "samples": 2765, "mean_loss": 0.01328883876541552}
+{"stage": "train_batch", "batch": 850, "batches": 1000, "samples": 2908, "mean_loss": 0.01299059363054829}
+{"stage": "train_batch", "batch": 900, "batches": 1000, "samples": 3053, "mean_loss": 0.012733000755907045}
+{"stage": "train_batch", "batch": 950, "batches": 1000, "samples": 3169, "mean_loss": 0.012409168998462478}
+{"stage": "train_batch", "batch": 1000, "batches": 1000, "samples": 3296, "mean_loss": 0.012322683321012272}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 28050, "batches": 28853, "samples": 97685, "mean_loss": 0.013913577339122404, "optimizer_steps": 28050, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "train_batch", "batch": 50, "batches": 803, "samples": 207, "mean_loss": 0.015311347701978208}
+{"stage": "train_batch", "batch": 100, "batches": 803, "samples": 368, "mean_loss": 0.01507801233168246}
+{"stage": "train_batch", "batch": 150, "batches": 803, "samples": 528, "mean_loss": 0.016509944296999354}
+{"stage": "train_batch", "batch": 200, "batches": 803, "samples": 684, "mean_loss": 0.01731711523134223}
+{"stage": "train_batch", "batch": 250, "batches": 803, "samples": 893, "mean_loss": 0.018584658051262144}
+{"stage": "train_batch", "batch": 300, "batches": 803, "samples": 1028, "mean_loss": 0.017008480165314095}
+{"stage": "train_batch", "batch": 350, "batches": 803, "samples": 1177, "mean_loss": 0.015825711487524985}
+{"stage": "train_batch", "batch": 400, "batches": 803, "samples": 1322, "mean_loss": 0.01495188962727709}
+{"stage": "train_batch", "batch": 450, "batches": 803, "samples": 1523, "mean_loss": 0.01512922047894541}
+{"stage": "train_batch", "batch": 500, "batches": 803, "samples": 1693, "mean_loss": 0.014524910725241695}
+{"stage": "train_batch", "batch": 550, "batches": 803, "samples": 1852, "mean_loss": 0.015330810556324001}
+{"stage": "train_batch", "batch": 600, "batches": 803, "samples": 2083, "mean_loss": 0.014685629175846706}
+{"stage": "train_batch", "batch": 650, "batches": 803, "samples": 2273, "mean_loss": 0.014529532139970902}
+{"stage": "train_batch", "batch": 700, "batches": 803, "samples": 2450, "mean_loss": 0.014394082608062546}
+{"stage": "train_batch", "batch": 750, "batches": 803, "samples": 2576, "mean_loss": 0.014823195132561048}
+{"stage": "train_batch", "batch": 800, "batches": 803, "samples": 2751, "mean_loss": 0.014724983583634055}
+{"stage": "training_checkpoint", "epoch": 1, "batch": 28853, "batches": 28853, "samples": 100440, "mean_loss": 0.013935373783882599, "optimizer_steps": 28853, "checkpoint": "/home/sw/Documents/ChatGPT/4/local_training/native_hw_route_increment_ab_20261115/B_route_increment/checkpoints/latest_training_state.pth"}
+{"stage": "validation_batch", "batch": 50, "batches": 3419, "samples": 50, "mean_loss": 0.0035148630058392883}
+{"stage": "validation_batch", "batch": 100, "batches": 3419, "samples": 100, "mean_loss": 0.0038359682296868415}
+{"stage": "validation_batch", "batch": 150, "batches": 3419, "samples": 150, "mean_loss": 0.011637731653948625}
+{"stage": "validation_batch", "batch": 200, "batches": 3419, "samples": 200, "mean_loss": 0.011455825322773307}
+{"stage": "validation_batch", "batch": 250, "batches": 3419, "samples": 250, "mean_loss": 0.010912874600850046}
+{"stage": "validation_batch", "batch": 300, "batches": 3419, "samples": 300, "mean_loss": 0.00962662349261033}
+{"stage": "validation_batch", "batch": 350, "batches": 3419, "samples": 350, "mean_loss": 0.009196013319971306}
+{"stage": "validation_batch", "batch": 400, "batches": 3419, "samples": 400, "mean_loss": 0.012074945192434825}
+{"stage": "validation_batch", "batch": 450, "batches": 3419, "samples": 450, "mean_loss": 0.011252700839346895}
+{"stage": "validation_batch", "batch": 500, "batches": 3419, "samples": 500, "mean_loss": 0.011473352160188369}
+{"stage": "validation_batch", "batch": 550, "batches": 3419, "samples": 550, "mean_loss": 0.010939298896436495}
+{"stage": "validation_batch", "batch": 600, "batches": 3419, "samples": 600, "mean_loss": 0.010359672381018753}
+{"stage": "validation_batch", "batch": 650, "batches": 3419, "samples": 650, "mean_loss": 0.009883690164872231}
+{"stage": "validation_batch", "batch": 700, "batches": 3419, "samples": 700, "mean_loss": 0.012715419660339}
+{"stage": "validation_batch", "batch": 750, "batches": 3419, "samples": 750, "mean_loss": 0.012244140626629815}
+{"stage": "validation_batch", "batch": 800, "batches": 3419, "samples": 800, "mean_loss": 0.011783131845804746}
+{"stage": "validation_batch", "batch": 850, "batches": 3419, "samples": 850, "mean_loss": 0.011624291439280461}
+{"stage": "validation_batch", "batch": 900, "batches": 3419, "samples": 900, "mean_loss": 0.011175038881224788}
+{"stage": "validation_batch", "batch": 950, "batches": 3419, "samples": 1132, "mean_loss": 0.011818834478411965}
+{"stage": "validation_batch", "batch": 1000, "batches": 3419, "samples": 1532, "mean_loss": 0.012971864743290443}
+{"stage": "validation_batch", "batch": 1050, "batches": 3419, "samples": 1956, "mean_loss": 0.012400974131946105}
+{"stage": "validation_batch", "batch": 1100, "batches": 3419, "samples": 2556, "mean_loss": 0.01252056621173116}
+{"stage": "validation_batch", "batch": 1150, "batches": 3419, "samples": 3004, "mean_loss": 0.012692086125757965}
+{"stage": "validation_batch", "batch": 1200, "batches": 3419, "samples": 3404, "mean_loss": 0.012471054046978812}
+{"stage": "validation_batch", "batch": 1250, "batches": 3419, "samples": 3762, "mean_loss": 0.012254826837153818}
+{"stage": "validation_batch", "batch": 1300, "batches": 3419, "samples": 3812, "mean_loss": 0.012178449550858436}
+{"stage": "validation_batch", "batch": 1350, "batches": 3419, "samples": 3862, "mean_loss": 0.0122398037167505}
+{"stage": "validation_batch", "batch": 1400, "batches": 3419, "samples": 3912, "mean_loss": 0.012297924741474004}
+{"stage": "validation_batch", "batch": 1450, "batches": 3419, "samples": 3962, "mean_loss": 0.012228917121458334}
+{"stage": "validation_batch", "batch": 1500, "batches": 3419, "samples": 4012, "mean_loss": 0.012345118637661336}
+{"stage": "validation_batch", "batch": 1550, "batches": 3419, "samples": 4062, "mean_loss": 0.012620714085771216}
+{"stage": "validation_batch", "batch": 1600, "batches": 3419, "samples": 4112, "mean_loss": 0.012524543789095687}
+{"stage": "validation_batch", "batch": 1650, "batches": 3419, "samples": 4162, "mean_loss": 0.012419593335811925}
+{"stage": "validation_batch", "batch": 1700, "batches": 3419, "samples": 4212, "mean_loss": 0.01232218653941118}
+{"stage": "validation_batch", "batch": 1750, "batches": 3419, "samples": 4262, "mean_loss": 0.012234456654373536}
+{"stage": "validation_batch", "batch": 1800, "batches": 3419, "samples": 4312, "mean_loss": 0.012231364483768072}
+{"stage": "validation_batch", "batch": 1850, "batches": 3419, "samples": 4362, "mean_loss": 0.012289285133719288}
+{"stage": "validation_batch", "batch": 1900, "batches": 3419, "samples": 4412, "mean_loss": 0.012930659506021297}
+{"stage": "validation_batch", "batch": 1950, "batches": 3419, "samples": 4462, "mean_loss": 0.012853924977546265}
+{"stage": "validation_batch", "batch": 2000, "batches": 3419, "samples": 4512, "mean_loss": 0.012776186087158742}
+{"stage": "validation_batch", "batch": 2050, "batches": 3419, "samples": 4562, "mean_loss": 0.01267404319671373}
+{"stage": "validation_batch", "batch": 2100, "batches": 3419, "samples": 4612, "mean_loss": 0.012636152531804556}
+{"stage": "validation_batch", "batch": 2150, "batches": 3419, "samples": 4662, "mean_loss": 0.012546417708527149}
+{"stage": "validation_batch", "batch": 2200, "batches": 3419, "samples": 4712, "mean_loss": 0.012834816247420777}
+{"stage": "validation_batch", "batch": 2250, "batches": 3419, "samples": 4762, "mean_loss": 0.012757743027947955}
+{"stage": "validation_batch", "batch": 2300, "batches": 3419, "samples": 5076, "mean_loss": 0.01261251135711823}
+{"stage": "validation_batch", "batch": 2350, "batches": 3419, "samples": 5716, "mean_loss": 0.012674622203344303}
+{"stage": "validation_batch", "batch": 2400, "batches": 3419, "samples": 6476, "mean_loss": 0.013153225337113458}
+{"stage": "validation_batch", "batch": 2450, "batches": 3419, "samples": 6576, "mean_loss": 0.013041492710113775}
+{"stage": "validation_batch", "batch": 2500, "batches": 3419, "samples": 6676, "mean_loss": 0.012917621728414229}
+{"stage": "validation_batch", "batch": 2550, "batches": 3419, "samples": 6776, "mean_loss": 0.012776361115312823}
+{"stage": "validation_batch", "batch": 2600, "batches": 3419, "samples": 6876, "mean_loss": 0.012654023085320732}
+{"stage": "validation_batch", "batch": 2650, "batches": 3419, "samples": 6976, "mean_loss": 0.012540022191855097}
+{"stage": "validation_batch", "batch": 2700, "batches": 3419, "samples": 7076, "mean_loss": 0.012433430296665035}
+{"stage": "validation_batch", "batch": 2750, "batches": 3419, "samples": 7176, "mean_loss": 0.012365881229154848}
+{"stage": "validation_batch", "batch": 2800, "batches": 3419, "samples": 8216, "mean_loss": 0.013752857511470906}
+{"stage": "validation_batch", "batch": 2850, "batches": 3419, "samples": 9056, "mean_loss": 0.014337168023672676}
+{"stage": "validation_batch", "batch": 2900, "batches": 3419, "samples": 9456, "mean_loss": 0.014094597180308963}
+{"stage": "validation_batch", "batch": 2950, "batches": 3419, "samples": 9700, "mean_loss": 0.014017613837111396}
+{"stage": "validation_batch", "batch": 3000, "batches": 3419, "samples": 9800, "mean_loss": 0.013948987475952742}
+{"stage": "validation_batch", "batch": 3050, "batches": 3419, "samples": 9900, "mean_loss": 0.013857600437782969}
+{"stage": "validation_batch", "batch": 3100, "batches": 3419, "samples": 10000, "mean_loss": 0.01378651651579421}
+{"stage": "validation_batch", "batch": 3150, "batches": 3419, "samples": 10100, "mean_loss": 0.013704363870328421}
+{"stage": "validation_batch", "batch": 3200, "batches": 3419, "samples": 10200, "mean_loss": 0.013647508167173238}
+{"stage": "validation_batch", "batch": 3250, "batches": 3419, "samples": 10300, "mean_loss": 0.013621876374682755}
+{"stage": "validation_batch", "batch": 3300, "batches": 3419, "samples": 10400, "mean_loss": 0.01362357549241726}
+{"stage": "validation_batch", "batch": 3350, "batches": 3419, "samples": 10608, "mean_loss": 0.01353898331521888}
+{"stage": "validation_batch", "batch": 3400, "batches": 3419, "samples": 11008, "mean_loss": 0.013585187298726957}
+{"stage": "epoch_complete", "epoch": 1, "train_loss": 0.013935373783882599, "val_loss": 0.013558918878179057, "train_tasks": 100440, "validation_tasks": 11160, "geometry": {"tasks": 26, "candidate_success_rate": 0.9423076923076923, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.9326923076923077, "accepted_candidate_rate": 0.9326923076923077, "accepted_safe_candidate_rate": 0.9326923076923077, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0, "by_shape": {"64x64": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "64x96": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "96x64": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "96x160": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "127x193": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "128x192": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "160x96": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "192x128": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "193x127": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "256x384": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "384x256": {"tasks": 2, "candidate_success_rate": 1.0, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 1.0, "accepted_candidate_rate": 1.0, "accepted_safe_candidate_rate": 1.0, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "512x768": {"tasks": 2, "candidate_success_rate": 0.75, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.625, "accepted_candidate_rate": 0.625, "accepted_safe_candidate_rate": 0.625, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}, "768x512": {"tasks": 2, "candidate_success_rate": 0.5, "oracle_best_of_k_success_rate": 1.0, "selected_path_success_rate": 1.0, "selector_miss_rate": 0.0, "decoder_valid_rate": 0.5, "accepted_candidate_rate": 0.5, "accepted_safe_candidate_rate": 0.5, "accepted_oracle_best_of_k_success_rate": 1.0, "deployment_success_rate": 1.0, "deployment_selector_miss_rate": 0.0, "abstention_rate": 0.0, "selected_accepted_unsafe_rate": 0.0}}}, "epoch_seconds_this_invocation": 5757.398402236002, "optimizer_steps": 28853}

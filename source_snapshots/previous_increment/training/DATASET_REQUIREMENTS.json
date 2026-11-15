@@ -1,0 +1,19 @@
+{
+  "package": "scene_flow_endpoint_package",
+  "maps": 9300,
+  "tasks": 111600,
+  "train_maps": 8370,
+  "validation_maps": 930,
+  "train_tasks": 100440,
+  "validation_tasks": 11160,
+  "map_overlap": 0,
+  "required_files": [
+    "train_data.npz",
+    "p37_routes.npz",
+    "split.npz",
+    "safety_audit.npz"
+  ],
+  "split_seed": 20260930,
+  "teacher_count": 1,
+  "route_supervision": "one unpenalized safe grid reference per endpoint task"
+}

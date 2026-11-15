@@ -1,0 +1,38 @@
+{
+  "created_local": "2026-11-15T11:10:04.305397+08:00",
+  "status": "prepared",
+  "source_epoch": 15,
+  "data_dir": "/home/sw/Documents/ChatGPT/4/local_training/recovered_20261111/data/native_hw_room_grid_v1",
+  "epochs_each": 1,
+  "train_tasks_each": 100440,
+  "validation_tasks_each": 11160,
+  "seed": 20261112,
+  "fresh_optimizer_each": "AdamW lr=5e-5 wd=1e-4",
+  "batch_size": 32,
+  "max_pixels_per_batch": 196608,
+  "batch_plan_epoch_offset": 15,
+  "A": {
+    "route_increment_weight": 0
+  },
+  "B": {
+    "route_increment_weight": 0.1,
+    "route_increment_samples": 128,
+    "route_increment_scale": 32
+  },
+  "fixed_decoder": "adaptive_fallback/smooth7/512",
+  "candidates": 4,
+  "flow_steps": 100,
+  "holdout_used": false,
+  "rl": false,
+  "auto_extend_epochs": false,
+  "auto_replace_model": false,
+  "github_upload": false,
+  "inputs_sha256": {
+    "epoch15.pth": "3a542a4e6941dabb05c5cdce75434afb4daf7e74eb0b0e79d38c33054dd33a81",
+    "source_report.json": "c0c49929aaefcdc0659d0ff10d715fa2ad592589f5d6c2bb4f5422089605a588",
+    "baseline274_report.json": "8dd6ae4cdb7172112db7b752b02ad50c3d7d2b672f391a0892c5d4143149fdd6",
+    "split.npz": "b02793bb4ced075caa0591033db8219ce4f34dba6bfa9ef1407bdc8d83c24cb0"
+  },
+  "diagnostic_report_sha256": "56af22c99fb2f8703691253d0bd586ebacdad30903c784e81b59be60805c6366",
+  "training_smoke_sha256": "268efe7ae03184f78c2aebb79e2a0dbe4ef5c9593dde70adbc4923e9df89bb3f"
+}
